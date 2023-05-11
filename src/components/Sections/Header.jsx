@@ -1,155 +1,121 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 // Components
-import FullButton from "../Buttons/FullButton";
-// Assets
-import HeaderImage from "../../assets/img/header-img.png";
-import QuotesIcon from "../../assets/svg/Quotes";
-import Dots from "../../assets/svg/Dots";
-
-export default function Header() {
-  return (
-    <Wrapper id="home" className="container flexSpaceCenter">
-      <LeftSide className="flexCenter">
-        <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
-          <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-          </HeaderP>
-          <BtnWrapper>
-            <FullButton title="Get Started" />
-          </BtnWrapper>
-        </div>
-      </LeftSide>
-      <RightSide>
-        <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
-          <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
-              </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
-            </div>
-          </QuoteWrapper>
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper>
-        </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
-      </RightSide>
-    </Wrapper>
-  );
-}
-
-
+import Twitter from '../../assets/svg/SocialMedia/Twitter';
+import Facebook from '../../assets/svg/SocialMedia/Facebook';
+import Instagram from '../../assets/svg/SocialMedia/Instagram';
+import Youtube from '../../assets/svg/SocialMedia/Youtube';
 const Wrapper = styled.section`
   padding-top: 80px;
   width: 100%;
-  min-height: 840px;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: url("./images/bg.png") repeat scroll 0; */
   @media (max-width: 960px) {
     flex-direction: column;
   }
 `;
-const LeftSide = styled.div`
-  width: 50%;
+
+const HeaderWrapper = styled.div`
+  width: 80%;
+  margin-left: auto;
+  margin-top: 100px;
   height: 100%;
-  @media (max-width: 960px) {
-    width: 100%;
-    order: 2;
-    margin: 50px 0;
-    text-align: center;
-  }
-  @media (max-width: 560px) {
-    margin: 80px 0 50px 0;
-  }
-`;
-const RightSide = styled.div`
-  width: 50%;
-  height: 100%;
+  text-align: right;
   @media (max-width: 960px) {
     width: 100%;
     order: 1;
     margin-top: 30px;
   }
 `;
+
 const HeaderP = styled.div`
-  max-width: 470px;
+  font-size: 28px;
+  font-weight: 400;
   padding: 15px 0 50px 0;
-  line-height: 1.5rem;
+  line-height: 2rem;
   @media (max-width: 960px) {
     padding: 15px 0 50px 0;
     text-align: center;
     max-width: 100%;
   }
 `;
-const BtnWrapper = styled.div`
-  max-width: 190px;
+
+const SocialMediaWrapper = styled.div`
+  margin-left: auto;
+  margin-bottom: 100px;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
   @media (max-width: 960px) {
     margin: 0 auto;
   }
 `;
-const GreyDiv = styled.div`
-  width: 30%;
-  height: 700px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-  @media (max-width: 960px) {
-    display: none;
-  }
-`;
-const ImageWrapper = styled.div`
+
+const ButtonWrapper = styled.div`
   display: flex;
-  justify-content: flex-end;
-  position: relative;
-  z-index: 9;
-  @media (max-width: 960px) {
-    width: 100%;
-    justify-content: center;
-  }
+  margin-top: 30px;
+  gap: 1.5rem;
 `;
-const Img = styled.img`
-  @media (max-width: 560px) {
-    width: 80%;
-    height: auto;
-  }
-`;
-const QuoteWrapper = styled.div`
+
+const BgImg = styled.img`
   position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
   left: 0;
-  bottom: 50px;
-  max-width: 330px;
-  padding: 30px;
-  z-index: 99;
-  @media (max-width: 960px) {
-    left: 20px;
-  }
-  @media (max-width: 560px) {
-    bottom: -50px;
-  }
-`;
-const QuotesWrapper = styled.div`
-  position: absolute;
-  left: -20px;
-  top: -10px;
-`;
-const DotsWrapper = styled.div`
-  position: absolute;
-  right: -100px;
-  bottom: 100px;
-  z-index: 2;
-  @media (max-width: 960px) {
-    right: 100px;
-  }
-  @media (max-width: 560px) {
-    display: none;
-  }
 `;
 
-
+export default function Header() {
+  return (
+    <Wrapper id='home' className='container flex'>
+      <BgImg src='./images/bg.png' />
+      <HeaderWrapper>
+        <div>
+          <h1 className='extraBold font60'>
+            Accelerating the transition to green hydrogen
+          </h1>
+          <HeaderP className='font13 semiBold'>
+            We produce membrane electrode assembly for water electrolysis
+          </HeaderP>
+        </div>
+      </HeaderWrapper>
+      <SocialMediaWrapper>
+        We're on
+        <ButtonWrapper>
+          <a
+            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Twitter />
+          </a>
+          <a
+            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Facebook />
+          </a>
+          <a
+            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Instagram />
+          </a>
+          <a
+            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Youtube />
+          </a>
+        </ButtonWrapper>
+      </SocialMediaWrapper>
+    </Wrapper>
+  );
+}

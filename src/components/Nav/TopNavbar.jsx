@@ -12,13 +12,12 @@ const Img = styled.img`
   width: 60px;
 `;
 
-
 const Wrapper = styled.nav`
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 99;
 `;
 
 const NavInner = styled.div`
@@ -35,13 +34,6 @@ const BurderWrapper = styled.button`
   display: none;
   @media (max-width: 760px) {
     display: block;
-  }
-`;
-
-const UlWrapper = styled.ul`
-  display: flex;
-  @media (max-width: 760px) {
-    display: none;
   }
 `;
 
@@ -64,25 +56,29 @@ export default function TopNavbar() {
 
   return (
     <>
-      <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-      {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
+      {/* <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} /> */}
+      {/* {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />} */}
       <Wrapper
-        className='flexCenter animate whiteBg'
+        className='flexCenter animate'
         style={y > 100 ? { height: '60px' } : { height: '80px' }}
       >
         <NavInner className='container flexSpaceCenter'>
-          <Link className='pointer flexNullCenter' to='home' smooth={true}>
+          <Link
+            className='pointer flexNullCenter'
+            to='home'
+            smooth={true}
+          >
             <Img src={logo} alt='logo' className='' />
             <h1 style={{ marginLeft: '15px' }} className='font20 extraBold'>
               Hydroyal
             </h1>
           </Link>
-          <BurderWrapper
+          {/* <BurderWrapper
             className='pointer'
             onClick={() => toggleSidebar(!sidebarOpen)}
           >
             <BurgerIcon />
-          </BurderWrapper>
+          </BurderWrapper> */}
           <UlWrapperRight className='flexNullCenter'>
             <li className='semiBold font15 pointer'>
               <Link
