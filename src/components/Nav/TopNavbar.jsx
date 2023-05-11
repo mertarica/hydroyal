@@ -60,7 +60,7 @@ export default function TopNavbar() {
       {/* {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />} */}
       <Wrapper
         className='flexCenter animate'
-        style={y > 100 ? { height: '60px' } : { height: '80px' }}
+        style={y > 100 ? { height: '60px', backgroundColor: "white" } : { height: '80px' }}
       >
         <NavInner className='container flexSpaceCenter'>
           <Link

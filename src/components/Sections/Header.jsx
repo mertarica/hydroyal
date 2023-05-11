@@ -11,7 +11,6 @@ const Wrapper = styled.section`
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-  /* background: url("./images/bg.png") repeat scroll 0; */
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -72,7 +71,7 @@ const BgImg = styled.img`
 export default function Header() {
   return (
     <Wrapper id='home' className='container flex'>
-      <BgImg src='./images/bg.png' />
+      <BgImg src='/images/bg.png' />
       <HeaderWrapper>
         <div>
           <h1 className='extraBold font60'>
