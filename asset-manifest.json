@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hydroyal/static/css/main.e43e4c16.chunk.css",
-    "main.js": "/hydroyal/static/js/main.e500959d.chunk.js",
-    "main.js.map": "/hydroyal/static/js/main.e500959d.chunk.js.map",
+    "main.js": "/hydroyal/static/js/main.49ea6f11.chunk.js",
+    "main.js.map": "/hydroyal/static/js/main.49ea6f11.chunk.js.map",
     "runtime-main.js": "/hydroyal/static/js/runtime-main.728be014.js",
     "runtime-main.js.map": "/hydroyal/static/js/runtime-main.728be014.js.map",
     "static/css/2.aae905ec.chunk.css": "/hydroyal/static/css/2.aae905ec.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.aae905ec.chunk.css.map": "/hydroyal/static/css/2.aae905ec.chunk.css.map",
     "static/css/main.e43e4c16.chunk.css.map": "/hydroyal/static/css/main.e43e4c16.chunk.css.map",
     "static/js/2.7f1f1360.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.7f1f1360.chunk.js.LICENSE.txt",
+    "static/media/bg.1757ffcf.png": "/hydroyal/static/media/bg.1757ffcf.png",
     "static/media/client01.a6362848.png": "/hydroyal/static/media/client01.a6362848.png",
     "static/media/client02.0bf91b72.png": "/hydroyal/static/media/client02.0bf91b72.png",
     "static/media/client03.d434f3af.png": "/hydroyal/static/media/client03.d434f3af.png",
@@ -24,6 +25,6 @@
     "static/css/2.aae905ec.chunk.css",
     "static/js/2.7f1f1360.chunk.js",
     "static/css/main.e43e4c16.chunk.css",
-    "static/js/main.e500959d.chunk.js"
+    "static/js/main.49ea6f11.chunk.js"
   ]
 }
