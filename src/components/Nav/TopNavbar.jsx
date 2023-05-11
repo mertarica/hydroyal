@@ -18,6 +18,7 @@ const Wrapper = styled.nav`
   top: 0;
   left: 0;
   z-index: 99;
+  height: 80px;
 `;
 
 const NavInner = styled.div`
@@ -60,14 +61,10 @@ export default function TopNavbar() {
       {/* {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />} */}
       <Wrapper
         className='flexCenter animate'
-        style={y > 100 ? { height: '60px', backgroundColor: "white" } : { height: '80px' }}
+        style={y > 100 ? { backgroundColor: 'white' } : {}}
       >
         <NavInner className='container flexSpaceCenter'>
-          <Link
-            className='pointer flexNullCenter'
-            to='home'
-            smooth={true}
-          >
+          <Link className='pointer flexNullCenter' to='home' smooth={true}>
             <Img src={logo} alt='logo' className='' />
             <h1 style={{ marginLeft: '15px' }} className='font20 extraBold'>
               Hydroyal

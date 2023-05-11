@@ -5,6 +5,8 @@ import Twitter from '../../assets/svg/SocialMedia/Twitter';
 import Facebook from '../../assets/svg/SocialMedia/Facebook';
 import Instagram from '../../assets/svg/SocialMedia/Instagram';
 import Youtube from '../../assets/svg/SocialMedia/Youtube';
+import BgImage from "../../assets/img/bg.png";
+
 const Wrapper = styled.section`
   padding-top: 80px;
   width: 100%;
@@ -71,7 +73,7 @@ const BgImg = styled.img`
 export default function Header() {
   return (
     <Wrapper id='home' className='container flex'>
-      <BgImg src='/images/bg.png' />
+      <BgImg src={BgImage} />
       <HeaderWrapper>
         <div>
           <h1 className='extraBold font60'>
