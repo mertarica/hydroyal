@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/hydroyal/static/css/main.9e12c890.chunk.css",
+    "main.js": "/hydroyal/static/js/main.c025fded.chunk.js",
+    "main.js.map": "/hydroyal/static/js/main.c025fded.chunk.js.map",
+    "runtime-main.js": "/hydroyal/static/js/runtime-main.728be014.js",
+    "runtime-main.js.map": "/hydroyal/static/js/runtime-main.728be014.js.map",
+    "static/css/2.aae905ec.chunk.css": "/hydroyal/static/css/2.aae905ec.chunk.css",
+    "static/js/2.7f1f1360.chunk.js": "/hydroyal/static/js/2.7f1f1360.chunk.js",
+    "static/js/2.7f1f1360.chunk.js.map": "/hydroyal/static/js/2.7f1f1360.chunk.js.map",
+    "static/js/3.c28ba7b9.chunk.js": "/hydroyal/static/js/3.c28ba7b9.chunk.js",
+    "static/js/3.c28ba7b9.chunk.js.map": "/hydroyal/static/js/3.c28ba7b9.chunk.js.map",
+    "index.html": "/hydroyal/index.html",
+    "static/css/2.aae905ec.chunk.css.map": "/hydroyal/static/css/2.aae905ec.chunk.css.map",
+    "static/css/main.9e12c890.chunk.css.map": "/hydroyal/static/css/main.9e12c890.chunk.css.map",
+    "static/js/2.7f1f1360.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.7f1f1360.chunk.js.LICENSE.txt",
+    "static/media/client01.a6362848.png": "/hydroyal/static/media/client01.a6362848.png",
+    "static/media/client02.0bf91b72.png": "/hydroyal/static/media/client02.0bf91b72.png",
+    "static/media/client03.d434f3af.png": "/hydroyal/static/media/client03.d434f3af.png",
+    "static/media/slick-theme.css": "/hydroyal/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.728be014.js",
+    "static/css/2.aae905ec.chunk.css",
+    "static/js/2.7f1f1360.chunk.js",
+    "static/css/main.9e12c890.chunk.css",
+    "static/js/main.c025fded.chunk.js"
+  ]
+}
