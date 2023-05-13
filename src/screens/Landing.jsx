@@ -2,6 +2,7 @@ import React from "react";
 // Sections
 import TopNavbar from "../components/Nav/TopNavbar";
 import Header from "../components/Sections/Header";
+import Team from "../components/Sections/Team";
 import Services from "../components/Sections/Services";
 import Projects from "../components/Sections/Projects";
 import Blog from "../components/Sections/Blog";
@@ -14,10 +15,11 @@ export default function Landing() {
     <>
       <TopNavbar />
       <Header />
-      <Services />
+      {/* <Team /> */}
       <Projects />
       <Blog />
       <Pricing />
+      <Services />
       <Contact />
       <Footer />
     </>

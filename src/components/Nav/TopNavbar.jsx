@@ -24,17 +24,8 @@ const Wrapper = styled.nav`
 const NavInner = styled.div`
   position: relative;
   height: 100%;
-`;
-
-const BurderWrapper = styled.button`
-  outline: none;
-  border: 0px;
-  background-color: transparent;
-  height: 100%;
-  padding: 0 15px;
-  display: none;
-  @media (max-width: 760px) {
-    display: block;
+  h1 {
+    color: #0b093b;
   }
 `;
 

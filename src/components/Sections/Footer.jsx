@@ -1,44 +1,15 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-scroll";
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
 // Assets
-import LogoImg from "../../assets/svg/Logo";
-
-export default function Contact() {
-
-  const getCurrentYear = () => {
-    return new Date().getFullYear();
-  }
-
-  return (
-    <Wrapper>
-      <div className="darkBg">
-        <div className="container">
-          <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
-            <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
-              <LogoImg />
-              <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
-                Fanatic
-              </h1>
-            </Link>
-            <StyleP className="whiteColor font13">
-              © {getCurrentYear()} - <span className="purpleColor font13">Fanatic</span> All Right Reserved
-            </StyleP>
-
-            <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
-              Back to top
-            </Link>
-          </InnerWrapper>
-        </div>
-      </div>
-    </Wrapper>
-  );
-}
+import LogoImg from '../../assets/img/logo.png';
 
 const Wrapper = styled.div`
   width: 100%;
+  background: #fff;
 `;
 const InnerWrapper = styled.div`
+  padding: 15px 0;
   @media (max-width: 550px) {
     flex-direction: column;
   }
@@ -48,3 +19,43 @@ const StyleP = styled.p`
     margin: 20px 0;
   }
 `;
+const Image = styled.img`
+  width: 32px;
+  margin-right: 8px;
+`;
+
+export default function Contact() {
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  };
+
+  return (
+    <Wrapper>
+      <div className='container'>
+        <InnerWrapper className='flexSpaceCenter'>
+          <Link
+            className='flexCenter animate pointer'
+            to='home'
+            smooth={true}
+            offset={-80}
+          >
+            <Image src={LogoImg} alt='logo' />
+            Hydroyal
+          </Link>
+          <StyleP className='font13'>
+            Copyright © {getCurrentYear()} Hydroyal - Med ensamrätt
+          </StyleP>
+
+          <Link
+            className=' animate pointer font13'
+            to='home'
+            smooth={true}
+            offset={-80}
+          >
+            Back to top
+          </Link>
+        </InnerWrapper>
+      </div>
+    </Wrapper>
+  );
+}
