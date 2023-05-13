@@ -13,11 +13,6 @@ import AddImage4 from "../../assets/img/add/4.png";
 export default function Services() {
   return (
     <Wrapper id="services">
-      <div className="lightBg" style={{ padding: "50px 0" }}>
-        <div className="container">
-          <ClientSlider />
-        </div>
-      </div>
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
@@ -96,6 +91,11 @@ export default function Services() {
               </AddRight>
             </Advertising>
           </div>
+        </div>
+      </div>
+      <div className="lightBg" >
+        <div className="container">
+          <ClientSlider />
         </div>
       </div>
     </Wrapper>

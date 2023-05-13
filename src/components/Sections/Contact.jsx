@@ -7,7 +7,7 @@ import ChatIcon from '../../assets/svg/Chat';
 export default function Contact() {
   return (
     <Wrapper id='contact'>
-      <div className='lightBg'>
+      <div>
         <div className='container'>
           <div className='row' style={{ paddingBottom: '30px' }}>
             <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>

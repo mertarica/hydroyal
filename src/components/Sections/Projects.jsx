@@ -99,55 +99,52 @@ const ImgWrapper = styled.div`
 export default function Projects() {
   return (
     <Wrapper id='projects'>
-      <div>
-        <div className='container'>
-          <HeaderInfo>
-            <h1 className='font40 extraBold'>Our Products</h1>
-            <p className='font20'>
-              Water electrolysis is a critical technology for green hydrogen
-              production. There is urgency of establishing GW-scale
-              electrolyzers (700 GW by 2030) to supply the world’s energy
-              demand. Yet, a bottleneck is scalable production of electrolyzer
-              components.
-              <br />
-              <br />
-              In Hydroyal, we manufacture the key component of electrolyzers,
-              membrane electrode assembly (MEA), in large-scale. Our unique MEA
-              is composed of eco-friendly and inexpensive materials and improves
-              stack efficiency with high hydrogen purity and
-              electrolyzer-friendly conditions (low KOH concentration).
-            </p>
-          </HeaderInfo>
-          <div className='row textCenter'>
-            <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
-              <ProjectBox
-                img={ProjectImg1}
-                title='Mass production'
-                text='We produce the key component of electrolyzers, MEAs, in a large scale.'
-                action={() => alert('clicked')}
-              />
-            </div>
-            <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
-              <ProjectBox
-                img={ProjectImg2}
-                title='≈10 times lower KOH'
-                text='Alkaline and AEM electrolyzers can operate with Hydroyal MEA with 5% KOH concentration.'
-                action={() => alert('clicked')}
-              />
-            </div>
-            <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
-              <ProjectBox
-                img={ProjectImg3}
-                title='High hydrogen purity'
-                text='Our unique product can help produce high purity hydrogen'
-                action={() => alert('clicked')}
-              />
-            </div>
+      <div className='container'>
+        <HeaderInfo>
+          <h1 className='font40 extraBold'>Our Products</h1>
+          <p className='font20'>
+            Water electrolysis is a critical technology for green hydrogen
+            production. There is urgency of establishing GW-scale electrolyzers
+            (700 GW by 2030) to supply the world’s energy demand. Yet, a
+            bottleneck is scalable production of electrolyzer components.
+            <br />
+            <br />
+            In Hydroyal, we manufacture the key component of electrolyzers,
+            membrane electrode assembly (MEA), in large-scale. Our unique MEA is
+            composed of eco-friendly and inexpensive materials and improves
+            stack efficiency with high hydrogen purity and electrolyzer-friendly
+            conditions (low KOH concentration).
+          </p>
+        </HeaderInfo>
+        <div className='row textCenter'>
+          <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
+            <ProjectBox
+              img={ProjectImg1}
+              title='Mass production'
+              text='We produce the key component of electrolyzers, MEAs, in a large scale.'
+              action={() => alert('clicked')}
+            />
           </div>
-          <div className='row flexCenter'>
-            <div style={{ margin: '50px 0', width: '200px' }}>
-              <FullButton title='Load More' action={() => alert('clicked')} />
-            </div>
+          <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
+            <ProjectBox
+              img={ProjectImg2}
+              title='≈10 times lower KOH'
+              text='Alkaline and AEM electrolyzers can operate with Hydroyal MEA with 5% KOH concentration.'
+              action={() => alert('clicked')}
+            />
+          </div>
+          <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
+            <ProjectBox
+              img={ProjectImg3}
+              title='High hydrogen purity'
+              text='Our unique product can help produce high purity hydrogen'
+              action={() => alert('clicked')}
+            />
+          </div>
+        </div>
+        <div className='row flexCenter'>
+          <div style={{ margin: '50px 0', width: '200px' }}>
+            <FullButton title='Load More' action={() => alert('clicked')} />
           </div>
         </div>
       </div>

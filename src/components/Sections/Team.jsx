@@ -9,69 +9,75 @@ import Contact1 from '../../assets/img/contact-1.png';
 // import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import PinterestIcon from '@mui/icons-material/Pinterest';
 
-const Wrapper = styled.div``;
+const Wrapper = styled.section`
+  background: linear-gradient(#fff, #c9f89d, #fff);
+  width: 100%;
+`;
+
+const InnerWrapper = styled.section`
+  max-width: 1220px;
+`;
 
 const Title = styled.h1`
   text-align: center;
-  margin: 100px auto auto 0;
   font-size: 50px;
-  color: #272c60;
 `;
-
 
 export default function Model1() {
   return (
     <Wrapper>
-      <Title>Responsive "Meet The Team" Section</Title>
-      <p>Resize the browser window to see the effect.</p>
-      <br />
+      <InnerWrapper>
+        <Title>Responsive "Meet The Team" Section</Title>
+        <p>Resize the browser window to see the effect.</p>
+        <br />
 
-      <div class='row'>
-        <div class='column'>
-          <div class='card'>
-            <img src={Contact1} alt='Jane' style='width:100%' />
-            <div class='container'>
-              <h2>Jane Doe</h2>
-              <p class='title'>CEO & Founder</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>example@example.com</p>
-              <p>
-                <button class='button'>Contact</button>
-              </p>
+        <div className='row'>
+          <div className='column'>
+            <div className='card'>
+              <img src={Contact1} alt='Jane' />
+              <div className='container'>
+                <h2>Jane Doe</h2>
+                <p className='title'>CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p>
+                  <button className='button'>Contact</button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className='column'>
+            <div className='card'>
+              <img src={Contact1} alt='Mike' />
+              <div className='container'>
+                <h2>Mike Ross</h2>
+                <p className='title'>Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p>
+                  <button className='button'>Contact</button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className='column'>
+            <div className='card'>
+              <img src={Contact1} alt='John' />
+              <div className='container'>
+                <h2>John Doe</h2>
+                <p className='title'>Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p>
+                  <button className='button'>Contact</button>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class='column'>
-          <div class='card'>
-            <img src={Contact1} alt='Mike' style='width:100%' />
-            <div class='container'>
-              <h2>Mike Ross</h2>
-              <p class='title'>Art Director</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>example@example.com</p>
-              <p>
-                <button class='button'>Contact</button>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class='column'>
-          <div class='card'>
-            <img src={Contact1} alt='John' style='width:100%' />
-            <div class='container'>
-              <h2>John Doe</h2>
-              <p class='title'>Designer</p>
-              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>example@example.com</p>
-              <p>
-                <button class='button'>Contact</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      </InnerWrapper>
     </Wrapper>
   );
 }
