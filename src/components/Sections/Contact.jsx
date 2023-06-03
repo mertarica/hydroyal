@@ -15,11 +15,9 @@ export default function Contact() {
                 <h1 className='font30 extraBold'>
                   Interested in testing our MEAs?
                 </h1>
-                <p className='font15'>
+                <p className='font20'>
                   We will be glad to work with you! Send us your information and
-                  we will be in touch with you shortly. E-mail us at{' '}
-                  <a href='mailto:burak@hydroyal.com'>burak@hydroyal.com</a> or
-                  through the form below.
+                  we will be in touch with you shortly.
                 </p>
               </HeaderInfo>
               <Form>
@@ -198,12 +196,15 @@ const Wrapper = styled.section`
 `;
 const HeaderInfo = styled.div`
   padding: 70px 0 30px 0;
+  > h1 {
+    margin-bottom: 15px;
+  }
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
 const Form = styled.form`
-  padding: 70px 0 30px 0;
+  padding: 20px 0;
   input,
   textarea {
     width: 100%;

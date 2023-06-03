@@ -280,7 +280,7 @@ export default function Projects() {
             </AddLeftInner>
           </AddLeft>
           <AddRight>
-            <p className='font20 semiBold'>
+            <p className='font25'>
               Hydroyal is a pioneer in large-scale MEA production for Alkaline
               Electrolysis, and Anion Exchange Membrane Electrolysis, with
               eco-friendly and sustainable materials.
