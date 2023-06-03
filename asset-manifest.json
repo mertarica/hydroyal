@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/hydroyal/static/css/main.427b516b.chunk.css",
-    "main.js": "/hydroyal/static/js/main.ae3aae18.chunk.js",
-    "main.js.map": "/hydroyal/static/js/main.ae3aae18.chunk.js.map",
+    "main.js": "/hydroyal/static/js/main.a2ec09f8.chunk.js",
+    "main.js.map": "/hydroyal/static/js/main.a2ec09f8.chunk.js.map",
     "runtime-main.js": "/hydroyal/static/js/runtime-main.728be014.js",
     "runtime-main.js.map": "/hydroyal/static/js/runtime-main.728be014.js.map",
     "static/css/2.aae905ec.chunk.css": "/hydroyal/static/css/2.aae905ec.chunk.css",
-    "static/js/2.32032cce.chunk.js": "/hydroyal/static/js/2.32032cce.chunk.js",
-    "static/js/2.32032cce.chunk.js.map": "/hydroyal/static/js/2.32032cce.chunk.js.map",
+    "static/js/2.85f466ea.chunk.js": "/hydroyal/static/js/2.85f466ea.chunk.js",
+    "static/js/2.85f466ea.chunk.js.map": "/hydroyal/static/js/2.85f466ea.chunk.js.map",
     "static/js/3.c28ba7b9.chunk.js": "/hydroyal/static/js/3.c28ba7b9.chunk.js",
     "static/js/3.c28ba7b9.chunk.js.map": "/hydroyal/static/js/3.c28ba7b9.chunk.js.map",
     "index.html": "/hydroyal/index.html",
     "static/css/2.aae905ec.chunk.css.map": "/hydroyal/static/css/2.aae905ec.chunk.css.map",
     "static/css/main.427b516b.chunk.css.map": "/hydroyal/static/css/main.427b516b.chunk.css.map",
-    "static/js/2.32032cce.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.32032cce.chunk.js.LICENSE.txt",
+    "static/js/2.85f466ea.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.85f466ea.chunk.js.LICENSE.txt",
     "static/media/1.c753ab5e.png": "/hydroyal/static/media/1.c753ab5e.png",
     "static/media/2.407fc007.png": "/hydroyal/static/media/2.407fc007.png",
     "static/media/3.5267a89b.png": "/hydroyal/static/media/3.5267a89b.png",
@@ -24,13 +24,14 @@
     "static/media/client02.0bf91b72.png": "/hydroyal/static/media/client02.0bf91b72.png",
     "static/media/client03.d434f3af.png": "/hydroyal/static/media/client03.d434f3af.png",
     "static/media/melike.c9d496d6.jpg": "/hydroyal/static/media/melike.c9d496d6.jpg",
+    "static/media/schema.702e3aa6.jpg": "/hydroyal/static/media/schema.702e3aa6.jpg",
     "static/media/slick-theme.css": "/hydroyal/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.728be014.js",
     "static/css/2.aae905ec.chunk.css",
-    "static/js/2.32032cce.chunk.js",
+    "static/js/2.85f466ea.chunk.js",
     "static/css/main.427b516b.chunk.css",
-    "static/js/main.ae3aae18.chunk.js"
+    "static/js/main.a2ec09f8.chunk.js"
   ]
 }
