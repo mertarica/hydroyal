@@ -143,7 +143,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className='lightBg'>
+      <div className='whiteBg'>
         <div className='container'>
           <Advertising className='flexSpaceCenter'>
             <AddLeft>
