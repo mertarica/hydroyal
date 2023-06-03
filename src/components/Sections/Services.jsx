@@ -95,7 +95,7 @@ export default function Services() {
       </div>
       <div className="lightBg" >
         <div className="container">
-          <ClientSlider />
+          {/* <ClientSlider /> */}
         </div>
       </div>
     </Wrapper>

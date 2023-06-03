@@ -11,7 +11,7 @@ import AddImage2 from '../../assets/img/add/add2.png';
 
 const Wrapper = styled.section`
   width: 100%;
-  background: linear-gradient(#fff, #c9f89d);
+  background: #c9f89d;
 `;
 const HeaderInfo = styled.div`
   > h1 {
@@ -140,11 +140,6 @@ export default function Projects() {
               text='Our unique product can help produce high purity hydrogen'
               action={() => alert('clicked')}
             />
-          </div>
-        </div>
-        <div className='row flexCenter'>
-          <div style={{ margin: '50px 0', width: '200px' }}>
-            <FullButton title='Load More' action={() => alert('clicked')} />
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ const ButtonWrapper = styled.div`
 const BgImg = styled.img`
   position: absolute;
   z-index: -1;
-  object-fit: cover;
+  object-fit: fill;
   height: 100%;
   width: 100%;
   top: 0;
