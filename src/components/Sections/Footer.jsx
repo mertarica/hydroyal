@@ -6,7 +6,11 @@ import LogoImg from '../../assets/img/logo.png';
 
 const Wrapper = styled.div`
   width: 100%;
+  color: #0b093b;
   background: #fff;
+  a {
+    color: #0b093b;
+  }
 `;
 const InnerWrapper = styled.div`
   padding: 15px 0;
@@ -31,7 +35,7 @@ export default function Contact() {
 
   return (
     <Wrapper>
-      <div className='container'>
+      <div className='container lightBold'>
         <InnerWrapper className='flexSpaceCenter'>
           <Link
             className='flexCenter animate pointer'
