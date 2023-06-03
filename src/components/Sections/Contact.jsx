@@ -12,12 +12,14 @@ export default function Contact() {
           <div className='row' style={{ paddingBottom: '30px' }}>
             <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
               <HeaderInfo>
-                <h1 className='font40 extraBold'>Let's get in touch</h1>
-                <p className='font13'>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut
-                  <br />
-                  labore et dolore magna aliquyam erat, sed diam voluptua.
+                <h1 className='font30 extraBold'>
+                  Interested in testing our MEAs?
+                </h1>
+                <p className='font15'>
+                  We will be glad to work with you! Send us your information and
+                  we will be in touch with you shortly. E-mail us at{' '}
+                  <a href='mailto:burak@hydroyal.com'>burak@hydroyal.com</a> or
+                  through the form below.
                 </p>
               </HeaderInfo>
               <Form>
@@ -61,7 +63,7 @@ export default function Contact() {
               </SumbitWrapper>
             </div>
             <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 flex flexColumn'>
-              <div className='flexNullCenter flexRow' style={{gap: "30px"}}>
+              <div className='flexNullCenter flexRow' style={{ gap: '30px' }}>
                 <ContactImgBox>
                   <article className='box-contacts'>
                     <div className='box-contacts-body'>
@@ -88,7 +90,7 @@ export default function Contact() {
                   </article>
                 </ContactImgBox>
               </div>
-              <div >
+              <div>
                 <div style={{ marginTop: '50px' }}>
                   <article className='box-contacts'>
                     <div className='box-contacts-body'>
@@ -221,15 +223,15 @@ const Form = styled.form`
   }
 `;
 const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
+  border: 1px solid #024129;
+  background-color: #024129;
   width: 100%;
   padding: 15px;
   outline: none;
   color: #fff;
   :hover {
-    background-color: #580cd2;
-    border: 1px solid #7620ff;
+    background-color: #027200;
+    border: 1px solid #027200;
     color: #fff;
   }
   @media (max-width: 991px) {

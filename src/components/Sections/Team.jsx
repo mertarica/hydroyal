@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import BurakProfile from '../../assets/img/team/burak.jpg';
 import MelikeProfile from '../../assets/img/team/melike.jpg';
 import AliProfile from '../../assets/img/team/ali.jpg';
+import SchemaImage from '../../assets/img/projects/schema.jpg';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -193,18 +194,99 @@ const TeamWrapper = styled.div`
   }
 `;
 
+const Advertising = styled.div`
+  padding: 100px 0;
+  margin: 75px 0 100px;
+  position: relative;
+  @media (max-width: 1160px) {
+    padding: 60px 0 40px 0;
+  }
+  @media (max-width: 860px) {
+    flex-direction: column;
+    padding: 0 0 30px 0;
+    margin: 80px 0 0px 0;
+  }
+`;
+
+const AddLeft = styled.div`
+  position: relative;
+  width: 60%;
+  p {
+    max-width: 475px;
+  }
+  @media (max-width: 860px) {
+    width: 80%;
+    order: 2;
+    text-align: center;
+    h2 {
+      line-height: 3rem;
+      margin: 15px 0;
+    }
+    p {
+      margin: 0 auto;
+    }
+  }
+`;
+const AddRight = styled.div`
+  width: 40%;
+  @media (max-width: 860px) {
+    width: 80%;
+    order: 2;
+  }
+`;
+const AddLeftInner = styled.div`
+  width: 100%;
+  position: absolute;
+  top: -180px;
+  left: 0;
+  @media (max-width: 1190px) {
+    top: -250px;
+  }
+  @media (max-width: 920px) {
+    top: -200px;
+  }
+  @media (max-width: 860px) {
+    order: 1;
+    position: relative;
+    top: -60px;
+    left: 0;
+  }
+`;
+const ImgWrapper = styled.div`
+  width: 100%;
+  padding: 0 10% 0 0;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 400px) {
+    padding: 0;
+  }
+`;
+
 export default function Projects() {
   return (
     <Wrapper id='team'>
       <div className='container'>
         <HeaderInfo>
           <h1 className='font40 extraBold'>What Is Hydroyal?</h1>
-          <p className='font20'>
-            Hydroyal is a pioneer in large-scale MEA production for Alkaline
-            Electrolysis, and Anion Exchange Membrane Electrolysis, with
-            eco-friendly and sustainable materials.
-          </p>
         </HeaderInfo>
+        <Advertising className='flexSpaceCenter'>
+          <AddLeft>
+            <AddLeftInner>
+              <ImgWrapper className='flexCenter'>
+                <img className='radius8' src={SchemaImage} alt='add' />
+              </ImgWrapper>
+            </AddLeftInner>
+          </AddLeft>
+          <AddRight>
+            <p className='font20 semiBold'>
+              Hydroyal is a pioneer in large-scale MEA production for Alkaline
+              Electrolysis, and Anion Exchange Membrane Electrolysis, with
+              eco-friendly and sustainable materials.
+            </p>
+          </AddRight>
+        </Advertising>
 
         <HeaderInfo>
           <h1 className='font40 extraBold'>Meet The Team</h1>
