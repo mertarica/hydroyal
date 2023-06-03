@@ -1,33 +1,36 @@
 {
   "files": {
     "main.css": "/hydroyal/static/css/main.427b516b.chunk.css",
-    "main.js": "/hydroyal/static/js/main.6e60af31.chunk.js",
-    "main.js.map": "/hydroyal/static/js/main.6e60af31.chunk.js.map",
+    "main.js": "/hydroyal/static/js/main.260d4f6b.chunk.js",
+    "main.js.map": "/hydroyal/static/js/main.260d4f6b.chunk.js.map",
     "runtime-main.js": "/hydroyal/static/js/runtime-main.728be014.js",
     "runtime-main.js.map": "/hydroyal/static/js/runtime-main.728be014.js.map",
     "static/css/2.aae905ec.chunk.css": "/hydroyal/static/css/2.aae905ec.chunk.css",
-    "static/js/2.5175803d.chunk.js": "/hydroyal/static/js/2.5175803d.chunk.js",
-    "static/js/2.5175803d.chunk.js.map": "/hydroyal/static/js/2.5175803d.chunk.js.map",
+    "static/js/2.32032cce.chunk.js": "/hydroyal/static/js/2.32032cce.chunk.js",
+    "static/js/2.32032cce.chunk.js.map": "/hydroyal/static/js/2.32032cce.chunk.js.map",
     "static/js/3.c28ba7b9.chunk.js": "/hydroyal/static/js/3.c28ba7b9.chunk.js",
     "static/js/3.c28ba7b9.chunk.js.map": "/hydroyal/static/js/3.c28ba7b9.chunk.js.map",
     "index.html": "/hydroyal/index.html",
     "static/css/2.aae905ec.chunk.css.map": "/hydroyal/static/css/2.aae905ec.chunk.css.map",
     "static/css/main.427b516b.chunk.css.map": "/hydroyal/static/css/main.427b516b.chunk.css.map",
-    "static/js/2.5175803d.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.5175803d.chunk.js.LICENSE.txt",
+    "static/js/2.32032cce.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.32032cce.chunk.js.LICENSE.txt",
     "static/media/1.c753ab5e.png": "/hydroyal/static/media/1.c753ab5e.png",
     "static/media/2.407fc007.png": "/hydroyal/static/media/2.407fc007.png",
     "static/media/3.5267a89b.png": "/hydroyal/static/media/3.5267a89b.png",
+    "static/media/ali.43923cb5.jpg": "/hydroyal/static/media/ali.43923cb5.jpg",
     "static/media/bg.1757ffcf.png": "/hydroyal/static/media/bg.1757ffcf.png",
+    "static/media/burak.3ccefc5d.jpg": "/hydroyal/static/media/burak.3ccefc5d.jpg",
     "static/media/client01.a6362848.png": "/hydroyal/static/media/client01.a6362848.png",
     "static/media/client02.0bf91b72.png": "/hydroyal/static/media/client02.0bf91b72.png",
     "static/media/client03.d434f3af.png": "/hydroyal/static/media/client03.d434f3af.png",
+    "static/media/melike.c9d496d6.jpg": "/hydroyal/static/media/melike.c9d496d6.jpg",
     "static/media/slick-theme.css": "/hydroyal/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.728be014.js",
     "static/css/2.aae905ec.chunk.css",
-    "static/js/2.5175803d.chunk.js",
+    "static/js/2.32032cce.chunk.js",
     "static/css/main.427b516b.chunk.css",
-    "static/js/main.6e60af31.chunk.js"
+    "static/js/main.260d4f6b.chunk.js"
   ]
 }
