@@ -7,11 +7,11 @@ import FullButton from '../Buttons/FullButton';
 import ProjectImg1 from '../../assets/img/projects/1.png';
 import ProjectImg2 from '../../assets/img/projects/2.png';
 import ProjectImg3 from '../../assets/img/projects/3.png';
-import AddImage2 from '../../assets/img/add/add2.png';
+import AddImage2 from '../../assets/img/projects/4.png';
 
 const Wrapper = styled.section`
   width: 100%;
-  background: #c9f89d;
+  background: linear-gradient(#c9f89d, #c9f89d, #fff, #fff);
 `;
 const HeaderInfo = styled.div`
   > h1 {
@@ -42,7 +42,7 @@ const ButtonsRow = styled.div`
 `;
 const AddLeft = styled.div`
   position: relative;
-  width: 50%;
+  width: 60%;
   p {
     max-width: 475px;
   }
@@ -60,7 +60,7 @@ const AddLeft = styled.div`
   }
 `;
 const AddRight = styled.div`
-  width: 50%;
+  width: 40%;
   @media (max-width: 860px) {
     width: 80%;
     order: 2;
@@ -69,7 +69,7 @@ const AddRight = styled.div`
 const AddLeftInner = styled.div`
   width: 100%;
   position: absolute;
-  top: -300px;
+  top: -180px;
   left: 0;
   @media (max-width: 1190px) {
     top: -250px;
@@ -155,7 +155,7 @@ export default function Projects() {
             </AddLeft>
             <AddRight>
               <h4 className='font15 semiBold'>A few words about company</h4>
-              <h2 className='font40 extraBold'>A Study of Creativity</h2>
+              <h2 className='font40 extraBold'>Youtube video title</h2>
               <p className='font12'>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
