@@ -62,23 +62,17 @@ const AddRight = styled.div`
 `;
 const AddLeftInner = styled.div`
   width: 100%;
-  position: absolute;
-  top: -180px;
-  left: 0;
-  @media (max-width: 1190px) {
-    top: -250px;
-  }
-  @media (max-width: 920px) {
-    top: -200px;
-  }
   @media (max-width: 860px) {
     order: 1;
     position: relative;
-    top: -60px;
     left: 0;
   }
   > p {
     line-height: 1.75rem;
+    sup {
+      font-size: x-small;
+      vertical-align: super;
+    }
   }
 `;
 const ImgWrapper = styled.div`
@@ -97,7 +91,7 @@ export default function Projects() {
     <Wrapper id='projects'>
       <div className='container'>
         <HeaderInfo>
-          <h1 className='font40 extraBold'>Our Products</h1>
+          <h1 className='font40 extraBold'>Our Product</h1>
           <p className='font20'>
             Water electrolysis is a critical technology for green hydrogen
             production. There is urgency of establishing GW-scale electrolyzers
@@ -154,9 +148,9 @@ export default function Projects() {
                 experiences in electrode engineering, catalysts with sizes from
                 nm to µm can be coated on the membrane and catalyst coated
                 membrane (CCM) can be obtained. The MEA size varies between
-                5-200 cm2 corresponding to the hydrogen production capacity of
-                10-400 W and can be operated with 0.1 M to 2 M KOH electrolyte
-                at 55-60 °C.
+                5-200 cm<sup>2</sup> corresponding to the hydrogen production
+                capacity of 10-400 W and can be operated with 0.1 M to 2 M KOH
+                electrolyte at 55-60 °C.
               </p>
             </AddLeftInner>
           </AddLeft>
