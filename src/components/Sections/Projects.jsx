@@ -2,13 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 // Components
 import ProjectBox from '../Elements/ProjectBox';
-import FullButton from '../Buttons/FullButton';
 // Assets
-import ProjectImg1 from '../../assets/img/projects/1.png';
 import MessImg from '../../assets/img/projects/mess_production.jpg';
 import ProjectImg2 from '../../assets/img/projects/2.png';
 import ProjectImg3 from '../../assets/img/projects/3.png';
-import AddImage2 from '../../assets/img/projects/4.png';
+import ManufacturingProcess from '../../assets/img/projects/manufacturing_process.jpg';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -25,7 +23,7 @@ const HeaderInfo = styled.div`
 `;
 const Advertising = styled.div`
   padding: 100px 0;
-  margin: 100px 0;
+  margin: 100px 0 0;
   position: relative;
   @media (max-width: 1160px) {
     padding: 60px 0 40px 0;
@@ -36,14 +34,9 @@ const Advertising = styled.div`
     margin: 80px 0 0px 0;
   }
 `;
-const ButtonsRow = styled.div`
-  @media (max-width: 860px) {
-    justify-content: space-between;
-  }
-`;
 const AddLeft = styled.div`
   position: relative;
-  width: 60%;
+  width: 50%;
   p {
     max-width: 475px;
   }
@@ -61,7 +54,7 @@ const AddLeft = styled.div`
   }
 `;
 const AddRight = styled.div`
-  width: 40%;
+  width: 50%;
   @media (max-width: 860px) {
     width: 80%;
     order: 2;
@@ -84,10 +77,12 @@ const AddLeftInner = styled.div`
     top: -60px;
     left: 0;
   }
+  > p {
+    line-height: 1.75rem;
+  }
 `;
 const ImgWrapper = styled.div`
   width: 100%;
-  padding: 0 15%;
   img {
     width: 100%;
     height: auto;
@@ -144,47 +139,34 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      {/* <div className='whiteBg'>
-        <div className='container'>
-          <Advertising className='flexSpaceCenter'>
-            <AddLeft>
-              <AddLeftInner>
-                <ImgWrapper className='flexCenter'>
-                  <img className='radius8' src={AddImage2} alt='add' />
-                </ImgWrapper>
-              </AddLeftInner>
-            </AddLeft>
-            <AddRight>
-              <h4 className='font15 semiBold'>A few words about company</h4>
-              <h2 className='font40 extraBold'>Youtube video title</h2>
-              <p className='font12'>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum.
+      <div className='container'>
+        <Advertising className='flexSpaceCenter'>
+          <AddLeft>
+            <AddLeftInner>
+              <h4 className='font15 semiBold'>
+                A bit more details about our manufacturing process
+              </h4>
+              <h2 className='font40 extraBold'>CCM by Hydroyal</h2>
+              <p className='font20'>
+                Hydroyal is the only MEA provider for AEMWE in the world
+                bringing the PGM-free catalysts and membrane together with its
+                unique and patented technique. Thanks to the technique and
+                experiences in electrode engineering, catalysts with sizes from
+                nm to µm can be coated on the membrane and catalyst coated
+                membrane (CCM) can be obtained. The MEA size varies between
+                5-200 cm2 corresponding to the hydrogen production capacity of
+                10-400 W and can be operated with 0.1 M to 2 M KOH electrolyte
+                at 55-60 °C.
               </p>
-              <ButtonsRow
-                className='flexNullCenter'
-                style={{ margin: '30px 0' }}
-              >
-                <div style={{ width: '190px' }}>
-                  <FullButton
-                    title='Get Started'
-                    action={() => alert('clicked')}
-                  />
-                </div>
-                <div style={{ width: '190px', marginLeft: '15px' }}>
-                  <FullButton
-                    title='Contact Us'
-                    action={() => alert('clicked')}
-                    border
-                  />
-                </div>
-              </ButtonsRow>
-            </AddRight>
-          </Advertising>
-        </div>
-      </div> */}
+            </AddLeftInner>
+          </AddLeft>
+          <AddRight>
+            <ImgWrapper className='flexCenter'>
+              <img className='radius8' src={ManufacturingProcess} alt='add' />
+            </ImgWrapper>
+          </AddRight>
+        </Advertising>
+      </div>
     </Wrapper>
   );
 }

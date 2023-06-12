@@ -8,7 +8,6 @@ import FullButton from "../Buttons/FullButton";
 import AddImage1 from "../../assets/img/add/1.png";
 import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
 
 export default function Services() {
   return (
@@ -83,9 +82,6 @@ export default function Services() {
                     <AddImgWrapp3>
                       <img src={AddImage3} alt="office" />
                     </AddImgWrapp3>
-                    <AddImgWrapp4>
-                      <img src={AddImage4} alt="office" />
-                    </AddImgWrapp4>
                   </div>
                 </AddRightInner>
               </AddRight>

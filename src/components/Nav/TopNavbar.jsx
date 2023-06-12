@@ -101,19 +101,7 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Products
-              </Link>
-            </li>
-            <li className='semiBold font15 pointer'>
-              <Link
-                activeClass='active'
-                style={{ padding: '10px 15px' }}
-                to='blog'
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                Blog
+                Our Product
               </Link>
             </li>
             <li className='semiBold font15 pointer'>
