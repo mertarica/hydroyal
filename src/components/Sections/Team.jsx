@@ -92,6 +92,9 @@ const TeamWrapper = styled.div`
     -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
     width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
   }
 
   .item:hover .thumb img {
@@ -191,6 +194,10 @@ const TeamWrapper = styled.div`
 
   .social li.instagram a {
     background-color: #cd486b;
+  }
+
+  .social li.linkedin a {
+    background-color: #0e76a8;
   }
 `;
 
@@ -305,19 +312,14 @@ export default function Projects() {
                   </p>
                   <div class='social'>
                     <ul>
-                      <li class='twitter'>
-                        <a href='#'>
-                          <i class='fab fa-twitter'></i>
+                      <li class='linkedin'>
+                        <a href='https://www.linkedin.com/in/burak-koyuturk/'>
+                          <i class='fab fa-linkedin'></i>
                         </a>
                       </li>
-                      <li class='instagram'>
+                      <li class='google-plus'>
                         <a href='#'>
-                          <i class='fab fa-instagram'></i>
-                        </a>
-                      </li>
-                      <li class='vimeo'>
-                        <a href='#'>
-                          <i class='fab fa-vimeo-v'></i>
+                          <i class='fab fa-google'></i>
                         </a>
                       </li>
                     </ul>
@@ -326,7 +328,7 @@ export default function Projects() {
               </div>
               <div class='info'>
                 <span class='message'>
-                  <a href='mailto:burakkoyuturk@hydroyal.com'>
+                  <a href='mailto:burak@hydroyal.com'>
                     <i class='fas fa-envelope-open'></i>
                   </a>
                 </span>
@@ -347,19 +349,14 @@ export default function Projects() {
                   </p>
                   <div class='social'>
                     <ul>
-                      <li class='twitter'>
-                        <a href='#'>
-                          <i class='fab fa-twitter'></i>
+                      <li class='linkedin'>
+                        <a href='https://www.linkedin.com/in/melikebabucci/'>
+                          <i class='fab fa-linkedin'></i>
                         </a>
                       </li>
-                      <li class='instagram'>
+                      <li class='google-plus'>
                         <a href='#'>
-                          <i class='fab fa-instagram'></i>
-                        </a>
-                      </li>
-                      <li class='vimeo'>
-                        <a href='#'>
-                          <i class='fab fa-vimeo-v'></i>
+                          <i class='fab fa-google'></i>
                         </a>
                       </li>
                     </ul>
@@ -368,7 +365,7 @@ export default function Projects() {
               </div>
               <div class='info'>
                 <span class='message'>
-                  <a href='mailto:burakkoyuturk@hydroyal.com'>
+                  <a href='mailto:melike@hydroyal.com'>
                     <i class='fas fa-envelope-open'></i>
                   </a>
                 </span>
@@ -389,19 +386,9 @@ export default function Projects() {
                   </p>
                   <div class='social'>
                     <ul>
-                      <li class='twitter'>
-                        <a href='#'>
-                          <i class='fab fa-twitter'></i>
-                        </a>
-                      </li>
-                      <li class='instagram'>
-                        <a href='#'>
-                          <i class='fab fa-instagram'></i>
-                        </a>
-                      </li>
-                      <li class='vimeo'>
-                        <a href='#'>
-                          <i class='fab fa-vimeo-v'></i>
+                      <li class='linkedin'>
+                        <a href='https://www.linkedin.com/in/alibasol/'>
+                          <i class='fab fa-linkedin'></i>
                         </a>
                       </li>
                     </ul>
@@ -410,7 +397,7 @@ export default function Projects() {
               </div>
               <div class='info'>
                 <span class='message'>
-                  <a href='mailto:burakkoyuturk@hydroyal.com'>
+                  <a href='mailto:ali@hydroyal.com'>
                     <i class='fas fa-envelope-open'></i>
                   </a>
                 </span>

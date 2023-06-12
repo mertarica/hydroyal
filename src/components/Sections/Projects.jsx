@@ -5,6 +5,7 @@ import ProjectBox from '../Elements/ProjectBox';
 import FullButton from '../Buttons/FullButton';
 // Assets
 import ProjectImg1 from '../../assets/img/projects/1.png';
+import MessImg from '../../assets/img/projects/mess_production.jpg';
 import ProjectImg2 from '../../assets/img/projects/2.png';
 import ProjectImg3 from '../../assets/img/projects/3.png';
 import AddImage2 from '../../assets/img/projects/4.png';
@@ -119,10 +120,10 @@ export default function Projects() {
         <div className='row textCenter'>
           <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
             <ProjectBox
-              img={ProjectImg1}
+              img={MessImg}
               title='Mass production'
               text='We produce the key component of electrolyzers, MEAs, in a large scale.'
-              action={() => alert('clicked')}
+              // action={() => {alert('clicked')}}
             />
           </div>
           <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
@@ -143,7 +144,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className='whiteBg'>
+      {/* <div className='whiteBg'>
         <div className='container'>
           <Advertising className='flexSpaceCenter'>
             <AddLeft>
@@ -183,7 +184,7 @@ export default function Projects() {
             </AddRight>
           </Advertising>
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

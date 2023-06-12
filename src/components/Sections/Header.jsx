@@ -4,8 +4,9 @@ import styled from 'styled-components';
 import Twitter from '../../assets/svg/SocialMedia/Twitter';
 import Facebook from '../../assets/svg/SocialMedia/Facebook';
 import Instagram from '../../assets/svg/SocialMedia/Instagram';
+import Linkedin from '../../assets/svg/SocialMedia/Linkedin';
 import Youtube from '../../assets/svg/SocialMedia/Youtube';
-import BgImage from "../../assets/img/bg.png";
+import BgImage from '../../assets/img/bg.png';
 
 const Wrapper = styled.section`
   padding-top: 80px;
@@ -88,32 +89,25 @@ export default function Header() {
         We're on
         <ButtonWrapper>
           <a
-            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
+            href='https://twitter.com/HydroyalAB'
             target='_blank'
             rel='noopener noreferrer'
           >
             <Twitter />
           </a>
           <a
-            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <Facebook />
-          </a>
-          <a
-            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <Instagram />
-          </a>
-          <a
-            href='https://www.instagram.com/accelerating_the_transition_to_green_hydrogen/'
+            href='https://www.youtube.com/channel/UCrCT8XDOnXE7EtDYdA0o7SA'
             target='_blank'
             rel='noopener noreferrer'
           >
             <Youtube />
+          </a>
+          <a
+            href='https://www.linkedin.com/company/hydroyal/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Linkedin />
           </a>
         </ButtonWrapper>
       </SocialMediaWrapper>

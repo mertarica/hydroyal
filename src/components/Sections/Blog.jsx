@@ -15,6 +15,9 @@ const HeaderInfo = styled.div`
   @media (max-width: 860px) {
     text-align: center;
   }
+  > h1 {
+    text-align: center;
+  }
 `;
 
 export default function Blog() {
@@ -94,18 +97,12 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      <div className='container'>
+      {/* <div className='container'>
         <HeaderInfo>
-          <h1 className='font40 extraBold'>What They Say?</h1>
-          <p className='font13'>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut
-            <br />
-            labore et dolore magna aliquyam erat, sed diam voluptua.
-          </p>
+          <h1 className='font40 extraBold center'>Our Partners</h1>
         </HeaderInfo>
         <TestimonialSlider />
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

@@ -79,10 +79,7 @@ export default function Contact() {
                       <ChatIcon />
                       <div className='box-contacts-decor'></div>
                       <p className='box-contacts-link'>
-                        <a href='mailto:#'>mail@demolink.org</a>
-                      </p>
-                      <p className='box-contacts-link'>
-                        <a href='mailto:#'>info@demolink.org</a>
+                        <a href='mailto:melike@hydroyal.com'>melike@hydroyal.com</a>
                       </p>
                     </div>
                   </article>
@@ -131,14 +128,14 @@ const Wrapper = styled.section`
   .box-contacts-icon {
     font-size: 60px;
     line-height: 1;
-    color: #6689ff;
+    color: #ff5a6e;
   }
 
   .box-contacts-decor {
     margin: 30px auto;
     height: 2px;
     max-width: 100px;
-    background: #6689ff;
+    background: #ff5a6e;
     transition: all 0.3s ease-in-out;
   }
 
@@ -155,7 +152,7 @@ const Wrapper = styled.section`
   }
 
   .box-contacts-link a:hover {
-    color: #6689ff;
+    color: #ff5a6e;
   }
 
   @media (min-width: 992px) {
