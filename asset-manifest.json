@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hydroyal/static/css/main.427b516b.chunk.css",
-    "main.js": "/hydroyal/static/js/main.1991b715.chunk.js",
-    "main.js.map": "/hydroyal/static/js/main.1991b715.chunk.js.map",
+    "main.js": "/hydroyal/static/js/main.5bc68a80.chunk.js",
+    "main.js.map": "/hydroyal/static/js/main.5bc68a80.chunk.js.map",
     "runtime-main.js": "/hydroyal/static/js/runtime-main.728be014.js",
     "runtime-main.js.map": "/hydroyal/static/js/runtime-main.728be014.js.map",
     "static/css/2.aae905ec.chunk.css": "/hydroyal/static/css/2.aae905ec.chunk.css",
@@ -21,7 +21,7 @@
     "static/media/bg.1757ffcf.png": "/hydroyal/static/media/bg.1757ffcf.png",
     "static/media/burak.69dc330d.jpg": "/hydroyal/static/media/burak.69dc330d.jpg",
     "static/media/kth.0bf91b72.png": "/hydroyal/static/media/kth.0bf91b72.png",
-    "static/media/manufacturing_process.e875bc10.jpg": "/hydroyal/static/media/manufacturing_process.e875bc10.jpg",
+    "static/media/manufacturing_process.2699b565.jpg": "/hydroyal/static/media/manufacturing_process.2699b565.jpg",
     "static/media/melike.6bc259f0.jpg": "/hydroyal/static/media/melike.6bc259f0.jpg",
     "static/media/mess_production.4d5973b9.jpg": "/hydroyal/static/media/mess_production.4d5973b9.jpg",
     "static/media/schema.702e3aa6.jpg": "/hydroyal/static/media/schema.702e3aa6.jpg",
@@ -33,6 +33,6 @@
     "static/css/2.aae905ec.chunk.css",
     "static/js/2.85f466ea.chunk.js",
     "static/css/main.427b516b.chunk.css",
-    "static/js/main.1991b715.chunk.js"
+    "static/js/main.5bc68a80.chunk.js"
   ]
 }
