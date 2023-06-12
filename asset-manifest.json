@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hydroyal/static/css/main.427b516b.chunk.css",
-    "main.js": "/hydroyal/static/js/main.604253c7.chunk.js",
-    "main.js.map": "/hydroyal/static/js/main.604253c7.chunk.js.map",
+    "main.js": "/hydroyal/static/js/main.1991b715.chunk.js",
+    "main.js.map": "/hydroyal/static/js/main.1991b715.chunk.js.map",
     "runtime-main.js": "/hydroyal/static/js/runtime-main.728be014.js",
     "runtime-main.js.map": "/hydroyal/static/js/runtime-main.728be014.js.map",
     "static/css/2.aae905ec.chunk.css": "/hydroyal/static/css/2.aae905ec.chunk.css",
@@ -14,24 +14,25 @@
     "static/css/2.aae905ec.chunk.css.map": "/hydroyal/static/css/2.aae905ec.chunk.css.map",
     "static/css/main.427b516b.chunk.css.map": "/hydroyal/static/css/main.427b516b.chunk.css.map",
     "static/js/2.85f466ea.chunk.js.LICENSE.txt": "/hydroyal/static/js/2.85f466ea.chunk.js.LICENSE.txt",
-    "static/media/1.c753ab5e.png": "/hydroyal/static/media/1.c753ab5e.png",
     "static/media/2.407fc007.png": "/hydroyal/static/media/2.407fc007.png",
     "static/media/3.5267a89b.png": "/hydroyal/static/media/3.5267a89b.png",
-    "static/media/ali.43923cb5.jpg": "/hydroyal/static/media/ali.43923cb5.jpg",
+    "static/media/ali.363984f3.jpg": "/hydroyal/static/media/ali.363984f3.jpg",
+    "static/media/almi.e05462fd.svg": "/hydroyal/static/media/almi.e05462fd.svg",
     "static/media/bg.1757ffcf.png": "/hydroyal/static/media/bg.1757ffcf.png",
-    "static/media/burak.3ccefc5d.jpg": "/hydroyal/static/media/burak.3ccefc5d.jpg",
-    "static/media/client01.a6362848.png": "/hydroyal/static/media/client01.a6362848.png",
-    "static/media/client02.0bf91b72.png": "/hydroyal/static/media/client02.0bf91b72.png",
-    "static/media/client03.d434f3af.png": "/hydroyal/static/media/client03.d434f3af.png",
-    "static/media/melike.c9d496d6.jpg": "/hydroyal/static/media/melike.c9d496d6.jpg",
+    "static/media/burak.69dc330d.jpg": "/hydroyal/static/media/burak.69dc330d.jpg",
+    "static/media/kth.0bf91b72.png": "/hydroyal/static/media/kth.0bf91b72.png",
+    "static/media/manufacturing_process.e875bc10.jpg": "/hydroyal/static/media/manufacturing_process.e875bc10.jpg",
+    "static/media/melike.6bc259f0.jpg": "/hydroyal/static/media/melike.6bc259f0.jpg",
+    "static/media/mess_production.4d5973b9.jpg": "/hydroyal/static/media/mess_production.4d5973b9.jpg",
     "static/media/schema.702e3aa6.jpg": "/hydroyal/static/media/schema.702e3aa6.jpg",
-    "static/media/slick-theme.css": "/hydroyal/static/media/slick.c94f7671.ttf"
+    "static/media/slick-theme.css": "/hydroyal/static/media/slick.c94f7671.ttf",
+    "static/media/smhub.b066c999.png": "/hydroyal/static/media/smhub.b066c999.png"
   },
   "entrypoints": [
     "static/js/runtime-main.728be014.js",
     "static/css/2.aae905ec.chunk.css",
     "static/js/2.85f466ea.chunk.js",
     "static/css/main.427b516b.chunk.css",
-    "static/js/main.604253c7.chunk.js"
+    "static/js/main.1991b715.chunk.js"
   ]
 }
