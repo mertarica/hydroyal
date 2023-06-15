@@ -12,13 +12,31 @@ const Wrapper = styled.section`
 `;
 const HeaderInfo = styled.div`
   > h1 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0 3rem;
     text-align: center;
   }
   @media (max-width: 860px) {
     text-align: center;
   }
+`;
+
+const FrameWrapper = styled.div`
+  overflow: hidden;
+  width: 560px;
+  height: 315px;
+  position: relative;
+  > iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 8px;
+  }
+`;
+
+const VideoLeftWrapper = styled.div`
+  width: calc(100% - 560px);
 `;
 
 const TeamWrapper = styled.div`
@@ -202,9 +220,8 @@ const TeamWrapper = styled.div`
 `;
 
 const Advertising = styled.div`
-  padding: 100px 0;
-  margin: 75px 0 100px;
   position: relative;
+  padding-bottom: 50px;
   @media (max-width: 1160px) {
     padding: 60px 0 40px 0;
   }
@@ -243,9 +260,6 @@ const AddRight = styled.div`
 `;
 const AddLeftInner = styled.div`
   width: 100%;
-  position: absolute;
-  top: -180px;
-  left: 0;
   @media (max-width: 1190px) {
     top: -250px;
   }
@@ -296,6 +310,30 @@ export default function Projects() {
         </Advertising>
 
         <HeaderInfo>
+          <h1 className='font40 extraBold'>Green Hydrogen</h1>
+        </HeaderInfo>
+        <Advertising className='flexSpaceCenter'>
+          <VideoLeftWrapper>
+            <p className='font25'>
+              Green hydrogen is a clean and renewable energy carrier that is
+              produced by using renewable sources of electricity to split water
+              molecules into hydrogen and oxygen. It holds promise as a
+              versatile and carbon-free fuel for various sectors, including
+              transportation, industry, and energy storage.
+            </p>
+          </VideoLeftWrapper>
+          <FrameWrapper>
+            <iframe
+              src={`https://www.youtube.com/embed/ZsZlacupkr4?autoplay=1`}
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'
+              allowFullScreen
+              title={'title'}
+            />
+          </FrameWrapper>
+        </Advertising>
+
+        <HeaderInfo>
           <h1 className='font40 extraBold'>Meet The Team</h1>
         </HeaderInfo>
 
@@ -318,7 +356,7 @@ export default function Projects() {
                         </a>
                       </li>
                       <li class='google-plus'>
-                        <a href='#'>
+                        <a href='https://scholar.google.se/citations?user=qEMtu-IAAAAJ&hl=tr&oi=ao'>
                           <i class='fab fa-google'></i>
                         </a>
                       </li>
@@ -355,7 +393,7 @@ export default function Projects() {
                         </a>
                       </li>
                       <li class='google-plus'>
-                        <a href='#'>
+                        <a href='https://scholar.google.se/citations?user=ce6v9hMAAAAJ&hl=tr&oi=ao'>
                           <i class='fab fa-google'></i>
                         </a>
                       </li>
