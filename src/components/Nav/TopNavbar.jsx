@@ -84,12 +84,24 @@ export default function TopNavbar() {
               <Link
                 activeClass='active'
                 style={{ padding: '10px 15px' }}
-                to='team'
+                to='aboutus'
                 spy={true}
                 smooth={true}
                 offset={-80}
               >
                 About Us
+              </Link>
+            </li>
+            <li className='semiBold font15 pointer'>
+              <Link
+                activeClass='active'
+                style={{ padding: '10px 15px' }}
+                to='team'
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                Team
               </Link>
             </li>
             <li className='semiBold font15 pointer'>
@@ -102,6 +114,18 @@ export default function TopNavbar() {
                 offset={-80}
               >
                 Our Product
+              </Link>
+            </li>
+            <li className='semiBold font15 pointer'>
+              <Link
+                activeClass='active'
+                style={{ padding: '10px 15px' }}
+                to='highlights'
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                Hylights
               </Link>
             </li>
             <li className='semiBold font15 pointer'>

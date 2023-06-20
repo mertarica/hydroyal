@@ -313,8 +313,8 @@ const ImgWrapper = styled.div`
 
 export default function Projects() {
   return (
-    <Wrapper id='team'>
-      <div className='container'>
+    <Wrapper>
+      <div id='aboutus' className='container'>
         <HeaderInfo>
           <h1 className='font40 extraBold'>What Is Hydroyal?</h1>
         </HeaderInfo>
@@ -358,7 +358,8 @@ export default function Projects() {
             />
           </FrameWrapper>
         </Advertising>
-
+      </div>
+      <div id='team' className='container'>
         <HeaderInfo>
           <h1 className='font40 extraBold'>Meet The Team</h1>
         </HeaderInfo>
