@@ -22,7 +22,6 @@ const HeaderInfo = styled.div`
   }
 `;
 const Advertising = styled.div`
-  padding: 100px 0;
   margin: 100px 0 0;
   position: relative;
   @media (max-width: 1160px) {
@@ -41,11 +40,9 @@ const AddLeft = styled.div`
     max-width: 475px;
   }
   @media (max-width: 860px) {
-    width: 80%;
-    order: 2;
+    width: 90%;
     text-align: center;
     h2 {
-      line-height: 3rem;
       margin: 15px 0;
     }
     p {
@@ -56,7 +53,7 @@ const AddLeft = styled.div`
 const AddRight = styled.div`
   width: 50%;
   @media (max-width: 860px) {
-    width: 80%;
+    width: 90%;
     order: 2;
   }
 `;

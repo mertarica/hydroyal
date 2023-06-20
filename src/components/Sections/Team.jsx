@@ -17,6 +17,9 @@ const HeaderInfo = styled.div`
   }
   @media (max-width: 860px) {
     text-align: center;
+    > h1 {
+      margin: 1rem 0;
+    }
   }
 `;
 
@@ -33,10 +36,29 @@ const FrameWrapper = styled.div`
     position: absolute;
     border-radius: 8px;
   }
+
+  @media (max-width: 860px) {
+    text-align: center;
+    margin-top: 24px;
+    width: 90%;
+    height: 230px;
+  }
 `;
 
 const VideoLeftWrapper = styled.div`
   width: calc(100% - 560px);
+  @media (max-width: 860px) {
+    width: 90%;
+    text-align: center;
+    h2 {
+      line-height: 3rem;
+      margin: 15px 0;
+    }
+    p {
+      margin: 0 auto;
+      text-align: left;
+    }
+  }
 `;
 
 const TeamWrapper = styled.div`
@@ -47,6 +69,11 @@ const TeamWrapper = styled.div`
 
   .single-item {
     margin-bottom: 30px;
+
+    @media (max-width: 860px) {
+      width: 90%;
+      margin: 25px auto;
+    }
   }
 
   .item .thumb {
@@ -228,7 +255,6 @@ const Advertising = styled.div`
   @media (max-width: 860px) {
     flex-direction: column;
     padding: 0 0 30px 0;
-    margin: 80px 0 0px 0;
   }
 `;
 
@@ -239,7 +265,7 @@ const AddLeft = styled.div`
     max-width: 475px;
   }
   @media (max-width: 860px) {
-    width: 80%;
+    width: 90%;
     order: 2;
     text-align: center;
     h2 {
@@ -254,7 +280,7 @@ const AddLeft = styled.div`
 const AddRight = styled.div`
   width: 40%;
   @media (max-width: 860px) {
-    width: 80%;
+    width: 90%;
     order: 2;
   }
 `;
@@ -280,8 +306,8 @@ const ImgWrapper = styled.div`
     width: 100%;
     height: auto;
   }
-  @media (max-width: 400px) {
-    padding: 0;
+  @media (max-width: 1190px) {
+    padding: 70px 0 0 0;
   }
 `;
 

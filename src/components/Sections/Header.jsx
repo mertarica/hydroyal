@@ -27,7 +27,6 @@ const HeaderWrapper = styled.div`
   text-align: right;
   @media (max-width: 960px) {
     width: 100%;
-    order: 1;
     margin-top: 30px;
   }
 `;
@@ -51,7 +50,7 @@ const SocialMediaWrapper = styled.div`
   font-size: 2rem;
   font-weight: 700;
   @media (max-width: 960px) {
-    margin: 0 auto;
+    margin: 0 0 0 auto;
   }
 `;
 

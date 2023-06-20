@@ -59,6 +59,9 @@ const CardContainer = styled.div`
   .timeline-horz-card-wrapper {
     outline: none;
   }
+  .right {
+    min-width: 75px;
+  }
 `;
 
 const items = [
@@ -89,7 +92,7 @@ export default function Highlights() {
         <CardContainer>
           <Chrono
             items={items}
-            mode='HORIZONTAL'
+            mode="VERTICAL"
             showAllCardsHorizontal
             itemWidth='2000'
             hideControls
