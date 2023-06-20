@@ -8,7 +8,8 @@ import KTH from '../../assets/img/clients/kth.png';
 const Wrapper = styled.section`
   width: 100%;
   > h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 800;
     text-align: center;
     padding: 1.5rem 0 1rem;
   }

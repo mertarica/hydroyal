@@ -303,7 +303,7 @@ export default function Projects() {
           <AddRight>
             <p className='font25'>
               Hydroyal is a pioneer in large-scale MEA production for Alkaline
-              Electrolysis, and Anion Exchange Membrane Electrolysis, with
+              Electrolysis and Anion Exchange Membrane Electrolysis, with
               eco-friendly and sustainable materials.
             </p>
           </AddRight>
@@ -319,7 +319,7 @@ export default function Projects() {
               produced by using renewable sources of electricity to split water
               molecules into hydrogen and oxygen. It holds promise as a
               versatile and carbon-free fuel for various sectors, including
-              transportation, industry, and energy storage.
+              transportation, industry, and energy storage.
             </p>
           </VideoLeftWrapper>
           <FrameWrapper>
@@ -337,37 +337,37 @@ export default function Projects() {
           <h1 className='font40 extraBold'>Meet The Team</h1>
         </HeaderInfo>
 
-        <TeamWrapper class='team-area row team-items'>
-          <div class='col-md-4 single-item'>
-            <div class='item'>
-              <div class='thumb'>
-                <img class='img-fluid' src={BurakProfile} alt='Thumb' />
-                <div class='overlay'>
+        <TeamWrapper className='team-area row team-items'>
+          <div className='col-md-4 single-item'>
+            <div className='item'>
+              <div className='thumb'>
+                <img className='img-fluid' src={BurakProfile} alt='Thumb' />
+                <div className='overlay'>
                   <h4>Burak Koyutürk</h4>
                   <p>
                     Burak is a chemical engineer in the Division of Applied
                     Electrochemistry at KTH.
                   </p>
-                  <div class='social'>
+                  <div className='social'>
                     <ul>
-                      <li class='linkedin'>
+                      <li className='linkedin'>
                         <a href='https://www.linkedin.com/in/burak-koyuturk/'>
-                          <i class='fab fa-linkedin'></i>
+                          <i className='fab fa-linkedin'></i>
                         </a>
                       </li>
-                      <li class='google-plus'>
+                      <li className='google-plus'>
                         <a href='https://scholar.google.se/citations?user=qEMtu-IAAAAJ&hl=tr&oi=ao'>
-                          <i class='fab fa-google'></i>
+                          <i className='fab fa-google'></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class='info'>
-                <span class='message'>
+              <div className='info'>
+                <span className='message'>
                   <a href='mailto:burak@hydroyal.com'>
-                    <i class='fas fa-envelope-open'></i>
+                    <i className='fas fa-envelope-open'></i>
                   </a>
                 </span>
                 <h4>Burak Koyutürk, PhD</h4>
@@ -375,36 +375,36 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div class='col-md-4 single-item'>
-            <div class='item'>
-              <div class='thumb'>
-                <img class='img-fluid' src={MelikeProfile} alt='Thumb' />
-                <div class='overlay'>
+          <div className='col-md-4 single-item'>
+            <div className='item'>
+              <div className='thumb'>
+                <img className='img-fluid' src={MelikeProfile} alt='Thumb' />
+                <div className='overlay'>
                   <h4>Melike Babucci</h4>
                   <p>
                     Melike is a chemical engineer in the Department of Materials
                     Science and Engineering at Uppsala University.
                   </p>
-                  <div class='social'>
+                  <div className='social'>
                     <ul>
-                      <li class='linkedin'>
+                      <li className='linkedin'>
                         <a href='https://www.linkedin.com/in/melikebabucci/'>
-                          <i class='fab fa-linkedin'></i>
+                          <i className='fab fa-linkedin'></i>
                         </a>
                       </li>
-                      <li class='google-plus'>
+                      <li className='google-plus'>
                         <a href='https://scholar.google.se/citations?user=ce6v9hMAAAAJ&hl=tr&oi=ao'>
-                          <i class='fab fa-google'></i>
+                          <i className='fab fa-google'></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class='info'>
-                <span class='message'>
+              <div className='info'>
+                <span className='message'>
                   <a href='mailto:melike@hydroyal.com'>
-                    <i class='fas fa-envelope-open'></i>
+                    <i className='fas fa-envelope-open'></i>
                   </a>
                 </span>
                 <h4>Melike Babucci, PhD</h4>
@@ -412,31 +412,31 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div class='col-md-4 single-item'>
-            <div class='item'>
-              <div class='thumb'>
-                <img class='img-fluid' src={AliProfile} alt='Thumb' />
-                <div class='overlay'>
+          <div className='col-md-4 single-item'>
+            <div className='item'>
+              <div className='thumb'>
+                <img className='img-fluid' src={AliProfile} alt='Thumb' />
+                <div className='overlay'>
                   <h4>Ali Başol</h4>
                   <p>
                     Ali is a business developer with a background in
                     international business development and finance.
                   </p>
-                  <div class='social'>
+                  <div className='social'>
                     <ul>
-                      <li class='linkedin'>
+                      <li className='linkedin'>
                         <a href='https://www.linkedin.com/in/alibasol/'>
-                          <i class='fab fa-linkedin'></i>
+                          <i className='fab fa-linkedin'></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class='info'>
-                <span class='message'>
+              <div className='info'>
+                <span className='message'>
                   <a href='mailto:ali@hydroyal.com'>
-                    <i class='fas fa-envelope-open'></i>
+                    <i className='fas fa-envelope-open'></i>
                   </a>
                 </span>
                 <h4>Ali Basol, MBA</h4>

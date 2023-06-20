@@ -1,0 +1,111 @@
+import React from 'react';
+import styled from 'styled-components';
+import { Chrono } from 'react-chrono';
+import HylightImage1 from '../../assets//img/highlights/hylight1.png';
+import HylightImage2 from '../../assets//img/highlights/hylight2.png';
+import HylightImage3 from '../../assets//img/highlights/hylight3.png';
+
+const Wrapper = styled.section`
+  width: 100%;
+  background: linear-gradient(#fff, #c9f89d, #fff);
+  section {
+    padding: 0;
+  }
+
+  #highlights {
+    display: flex;
+    background-color: #031625;
+
+    &:hover {
+      .tl-item {
+        width: 23.3333%;
+      }
+    }
+  }
+`;
+
+const HeaderInfo = styled.div`
+  > h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  @media (max-width: 860px) {
+    text-align: center;
+  }
+`;
+
+const CardContainer = styled.div`
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  > div > div > div {
+    width: 100%;
+  }
+  .active {
+    h1 {
+      color: #ff5a6e;
+    }
+  }
+  h1 {
+    color: #024129;
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  section {
+    border-bottom: none;
+    min-height: 100px;
+  }
+  .timeline-horz-card-wrapper {
+    outline: none;
+  }
+`;
+
+const items = [
+  {
+    title: 'October, 2022',
+    cardTitle: 'First Test Drive',
+    cardSubtitle: 'Accepted to STING Testdrive Deeptech 2022',
+  },
+  {
+    title: 'October, 2022',
+    cardTitle: 'Pre-Incubator Program',
+    cardSubtitle: 'Accepted to KTH Innovation Pre-incubator program',
+  },
+  {
+    title: 'January, 2023',
+    cardTitle: 'Officially Starting',
+    cardSubtitle: 'Our company was established as Hydroyal.',
+  },
+];
+
+export default function Highlights() {
+  return (
+    <Wrapper id='highlights'>
+      <HeaderInfo>
+        <h1>Hylights</h1>
+      </HeaderInfo>
+      <div className='container'>
+        <CardContainer>
+          <Chrono
+            items={items}
+            mode='HORIZONTAL'
+            showAllCardsHorizontal
+            itemWidth='2000'
+            hideControls
+            theme={{
+              primary: '#024129',
+              secondary: 'transparent',
+              cardBgColor: 'transparent',
+              titleColor: '#024129',
+              titleColorActive: '#ff5a6e',
+            }}
+          />
+        </CardContainer>
+      </div>
+    </Wrapper>
+  );
+}
