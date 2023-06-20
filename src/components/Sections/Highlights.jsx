@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Chrono } from 'react-chrono';
-import HylightImage1 from '../../assets//img/highlights/hylight1.png';
-import HylightImage2 from '../../assets//img/highlights/hylight2.png';
-import HylightImage3 from '../../assets//img/highlights/hylight3.png';
 
 const Wrapper = styled.section`
   width: 100%;
