@@ -141,7 +141,7 @@ export default function Projects() {
               <p className='font20'>
                 Hydroyal is the only MEA provider for AEMWE in the world
                 bringing the PGM-free catalysts and membrane together with its
-                unique and patented technique. Thanks to the technique and
+                unique and patent-pending technique. Thanks to the technique and
                 experiences in electrode engineering, catalysts with sizes from
                 nm to µm can be coated on the membrane and catalyst coated
                 membrane (CCM) can be obtained. The MEA size varies between
