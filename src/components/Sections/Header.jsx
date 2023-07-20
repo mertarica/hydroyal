@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 // Components
 import Twitter from '../../assets/svg/SocialMedia/Twitter';
-import Facebook from '../../assets/svg/SocialMedia/Facebook';
-import Instagram from '../../assets/svg/SocialMedia/Instagram';
 import Linkedin from '../../assets/svg/SocialMedia/Linkedin';
 import Youtube from '../../assets/svg/SocialMedia/Youtube';
 import BgImage from '../../assets/img/bg.png';

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 // Components
 import BlogBox from '../Elements/BlogBox';
 import FullButton from '../Buttons/FullButton';
-import TestimonialSlider from '../Elements/TestimonialSlider';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -97,12 +96,6 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      {/* <div className='container'>
-        <HeaderInfo>
-          <h1 className='font40 extraBold center'>Our Partners</h1>
-        </HeaderInfo>
-        <TestimonialSlider />
-      </div> */}
     </Wrapper>
   );
 }

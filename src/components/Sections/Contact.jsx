@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import PhoneIcon from '../../assets/svg/Phone';
 import HomeIcon from '../../assets/svg/Home';
 import ChatIcon from '../../assets/svg/Chat';
-
+import { useForm, ValidationError } from '@formspree/react';
 export default function Contact() {
+  const [state, handleSubmit] = useForm('mknlgbwn');
   return (
     <Wrapper id='contact'>
       <div>
@@ -20,28 +21,33 @@ export default function Contact() {
                   we will be in touch with you shortly.
                 </p>
               </HeaderInfo>
-              <Form>
-                <label className='font13'>First name:</label>
+              <Form id='contact-us-form' onSubmit={handleSubmit}>
+                <label className='font13' htmlFor='fname'>
+                  First name:
+                </label>
                 <input
                   type='text'
                   id='fname'
                   name='fname'
                   className='font20 extraBold'
                 />
-                <label className='font13'>Email:</label>
+                <label className='font13' htmlFor='email'>
+                  Email:
+                </label>
                 <input
-                  type='text'
+                  type='email'
                   id='email'
                   name='email'
                   className='font20 extraBold'
                 />
-                <label className='font13'>Subject:</label>
-                <input
-                  type='text'
-                  id='subject'
-                  name='subject'
-                  className='font20 extraBold'
+                <ValidationError
+                  prefix='Email'
+                  field='email'
+                  errors={state.errors}
                 />
+                <label className='font13' htmlFor='message'>
+                  Message:
+                </label>
                 <textarea
                   rows='4'
                   cols='50'
@@ -50,14 +56,20 @@ export default function Contact() {
                   name='message'
                   className='font20 extraBold'
                 />
+                <ValidationError
+                  prefix='Message'
+                  field='message'
+                  errors={state.errors}
+                />
               </Form>
               <SumbitWrapper className='flex'>
-                <ButtonInput
+                <Button
+                  form='contact-us-form'
                   type='submit'
-                  value='Send Message'
-                  className='pointer animate radius8'
-                  style={{ maxWidth: '220px' }}
-                />
+                  disabled={state.submitting || state.succeeded}
+                >
+                  {state.succeeded ? 'Thank You!' : 'Send Message'}
+                </Button>
               </SumbitWrapper>
             </div>
             <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 flex flexColumn'>
@@ -79,7 +91,9 @@ export default function Contact() {
                       <ChatIcon />
                       <div className='box-contacts-decor'></div>
                       <p className='box-contacts-link'>
-                        <a href='mailto:melike@hydroyal.com'>melike@hydroyal.com</a>
+                        <a href='mailto:melike@hydroyal.com'>
+                          melike@hydroyal.com
+                        </a>
                       </p>
                     </div>
                   </article>
@@ -220,16 +234,23 @@ const Form = styled.form`
     padding: 30px 0;
   }
 `;
-const ButtonInput = styled.input`
-  border: 1px solid #024129;
-  background-color: #024129;
-  width: 100%;
-  padding: 15px;
-  outline: none;
+const Button = styled.button`
+  border: none;
+  cursor: pointer;
   color: #fff;
+  background-color: #024129;
+  padding: 15px;
+  border-radius: 10px;
+  width: 40%;
+  font-size: 0.875rem;
+  font-weight: 500;
   :hover {
     background-color: #027200;
-    border: 1px solid #027200;
+    color: #fff;
+  }
+  :disabled {
+    cursor: not-allowed;
+    background-color: gray;
     color: #fff;
   }
   @media (max-width: 991px) {
