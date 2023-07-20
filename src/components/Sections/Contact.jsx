@@ -22,13 +22,13 @@ export default function Contact() {
                 </p>
               </HeaderInfo>
               <Form id='contact-us-form' onSubmit={handleSubmit}>
-                <label className='font13' htmlFor='fname'>
+                <label className='font13' htmlFor='name'>
                   First name:
                 </label>
                 <input
                   type='text'
-                  id='fname'
-                  name='fname'
+                  id='name'
+                  name='name'
                   className='font20 extraBold'
                 />
                 <label className='font13' htmlFor='email'>
