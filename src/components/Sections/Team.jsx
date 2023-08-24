@@ -3,7 +3,8 @@ import styled from 'styled-components';
 // Assets
 import BurakProfile from '../../assets/img/team/burak.jpg';
 import MelikeProfile from '../../assets/img/team/melike.jpg';
-import AliProfile from '../../assets/img/team/ali.jpg';
+import LindberghProfile from '../../assets/img/team/lindbergh.jpg';
+import MatteoProfile from '../../assets/img/team/matteo.jpg';
 import SchemaImage from '../../assets/img/projects/schema.jpg';
 
 const Wrapper = styled.section`
@@ -63,6 +64,7 @@ const VideoLeftWrapper = styled.div`
 
 const TeamWrapper = styled.div`
   display: flex;
+  justify-content: center;
   .item:hover .thumb::after {
     opacity: 0.7;
   }
@@ -137,7 +139,7 @@ const TeamWrapper = styled.div`
     -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
     width: 100%;
-    height: 350px;
+    height: 380px;
     object-fit: cover;
     object-position: top;
   }
@@ -372,7 +374,7 @@ export default function Projects() {
                 <div className='overlay'>
                   <h4>Burak Koyutürk</h4>
                   <p>
-                    Burak is a chemical engineer in the Division of Applied
+                    Burak is chemical engineer in the Division of Applied
                     Electrochemistry at KTH.
                   </p>
                   <div className='social'>
@@ -409,7 +411,7 @@ export default function Projects() {
                 <div className='overlay'>
                   <h4>Melike Babucci</h4>
                   <p>
-                    Melike is a chemical engineer in the Department of Materials
+                    Melike is chemical engineer in the Department of Materials
                     Science and Engineering at Uppsala University.
                   </p>
                   <div className='social'>
@@ -435,24 +437,24 @@ export default function Projects() {
                   </a>
                 </span>
                 <h4>Melike Babucci, PhD</h4>
-                <span>CTO</span>
+                <span>COO</span>
               </div>
             </div>
           </div>
           <div className='col-md-4 single-item'>
             <div className='item'>
               <div className='thumb'>
-                <img className='img-fluid' src={AliProfile} alt='Thumb' />
+                <img className='img-fluid' src={MatteoProfile} alt='Thumb' />
                 <div className='overlay'>
-                  <h4>Ali Başol</h4>
+                  <h4>Matteo Rossini</h4>
                   <p>
-                    Ali is a business developer with a background in
-                    international business development and finance.
+                    Matteo is chemical engineer in the Division of Applied
+                    Electrochemistry at KTH.
                   </p>
                   <div className='social'>
                     <ul>
                       <li className='linkedin'>
-                        <a href='https://www.linkedin.com/in/alibasol/'>
+                        <a href='https://www.linkedin.com/in/matteo-rossini-6032bb182/'>
                           <i className='fab fa-linkedin'></i>
                         </a>
                       </li>
@@ -462,12 +464,38 @@ export default function Projects() {
               </div>
               <div className='info'>
                 <span className='message'>
-                  <a href='mailto:ali@hydroyal.com'>
+                  <a href='mailto:matteo@hydroyal.com'>
                     <i className='fas fa-envelope-open'></i>
                   </a>
                 </span>
-                <h4>Ali Basol, MBA</h4>
-                <span>CFO</span>
+                <h4>Matteo Rossini, MSc</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+        </TeamWrapper>
+        <HeaderInfo>
+          <h1 className='font40 extraBold'>Advisory Board</h1>
+        </HeaderInfo>
+
+        <TeamWrapper className='team-area row team-items'>
+          <div className='col-md-4 single-item'>
+            <div className='item'>
+              <div className='thumb'>
+                <img className='img-fluid' src={LindberghProfile} alt='Thumb' />
+                <div className='overlay'>
+                  <h4>Professor Göran Lindbergh</h4>
+                  <p>Head of Division of Applied Electrochemistry at KTH</p>
+                </div>
+              </div>
+              <div className='info'>
+                <span className='message'>
+                  <a href='mailto:gnli@kth.se'>
+                    <i className='fas fa-envelope-open'></i>
+                  </a>
+                </span>
+                <h4>Professor Göran Lindbergh</h4>
+                <span>Advisor</span>
               </div>
             </div>
           </div>
