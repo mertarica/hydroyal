@@ -65,6 +65,7 @@ const VideoLeftWrapper = styled.div`
 const TeamWrapper = styled.div`
   display: flex;
   justify-content: center;
+  margin: 0 100px;
   .item:hover .thumb::after {
     opacity: 0.7;
   }
@@ -139,7 +140,7 @@ const TeamWrapper = styled.div`
     -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
     width: 100%;
-    height: 380px;
+    height: 300px;
     object-fit: cover;
     object-position: top;
   }
