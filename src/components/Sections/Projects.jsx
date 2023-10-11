@@ -92,7 +92,7 @@ export default function Projects() {
           <p className='font20'>
             Water electrolysis is a critical technology for green hydrogen
             production. There is urgency of establishing GW-scale electrolyzers
-            (700 GW by 2030) to supply the world’s energy demand. Yet, a
+            ({'>'} 550 GW by 2030) to supply the world’s energy demand. Yet, a
             bottleneck is scalable production of electrolyzer components.
             <br />
             <br />

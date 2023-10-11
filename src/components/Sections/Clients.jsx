@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Almi from '../../assets/img/clients/almi.svg';
 import StockholmMaterialHub from '../../assets/img/clients/smhub.png';
 import KTH from '../../assets/img/clients/kth.png';
+import RMA from '../../assets/img/clients/RMA.png';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -18,16 +19,21 @@ const Wrapper = styled.section`
   }
   .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 
     @media (max-width: 860px) {
       flex-direction: column;
     }
   }
+  .width-50 {
+    width: 50%;
+  }
 `;
 
 const LogoWrapper = styled.div`
-  width: 33%;
+  width: calc(33% - 5rem);
   @media (max-width: 860px) {
     width: 80%;
     margin: auto;
@@ -59,6 +65,9 @@ export default function ClientSlider() {
         </LogoWrapper>
         <LogoWrapper className='flexCenter'>
           <ImgStyle src={Almi} alt='Almi logo' />
+        </LogoWrapper>
+        <LogoWrapper className='flexCenter width-50'>
+          <ImgStyle src={RMA} alt='RMA logo' />
         </LogoWrapper>
       </div>
     </Wrapper>
