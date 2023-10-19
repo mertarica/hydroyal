@@ -91,8 +91,8 @@ export default function Contact() {
                       <ChatIcon />
                       <div className='box-contacts-decor'></div>
                       <p className='box-contacts-link'>
-                        <a href='mailto:melike@hydroyal.com'>
-                          melike@hydroyal.com
+                        <a href='mailto:info@hydroyal.com'>
+                          info@hydroyal.com
                         </a>
                       </p>
                     </div>
