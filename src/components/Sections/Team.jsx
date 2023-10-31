@@ -408,6 +408,38 @@ export default function Projects() {
           <div className='col-md-4 single-item'>
             <div className='item'>
               <div className='thumb'>
+                <img className='img-fluid' src={MatteoProfile} alt='Thumb' />
+                <div className='overlay'>
+                  <h4>Matteo Rossini</h4>
+                  <p>
+                    Matteo is chemical engineer in the Division of Applied
+                    Electrochemistry at KTH.
+                  </p>
+                  <div className='social'>
+                    <ul>
+                      <li className='linkedin'>
+                        <a href='https://www.linkedin.com/in/matteo-rossini-6032bb182/'>
+                          <i className='fab fa-linkedin'></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className='info'>
+                <span className='message'>
+                  <a href='mailto:matteo@hydroyal.com'>
+                    <i className='fas fa-envelope-open'></i>
+                  </a>
+                </span>
+                <h4>Matteo Rossini, MSc</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-4 single-item'>
+            <div className='item'>
+              <div className='thumb'>
                 <img className='img-fluid' src={MelikeProfile} alt='Thumb' />
                 <div className='overlay'>
                   <h4>Melike Babucci</h4>
@@ -439,38 +471,6 @@ export default function Projects() {
                 </span>
                 <h4>Melike Babucci, PhD</h4>
                 <span>COO</span>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-4 single-item'>
-            <div className='item'>
-              <div className='thumb'>
-                <img className='img-fluid' src={MatteoProfile} alt='Thumb' />
-                <div className='overlay'>
-                  <h4>Matteo Rossini</h4>
-                  <p>
-                    Matteo is chemical engineer in the Division of Applied
-                    Electrochemistry at KTH.
-                  </p>
-                  <div className='social'>
-                    <ul>
-                      <li className='linkedin'>
-                        <a href='https://www.linkedin.com/in/matteo-rossini-6032bb182/'>
-                          <i className='fab fa-linkedin'></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className='info'>
-                <span className='message'>
-                  <a href='mailto:matteo@hydroyal.com'>
-                    <i className='fas fa-envelope-open'></i>
-                  </a>
-                </span>
-                <h4>Matteo Rossini, MSc</h4>
-                <span>CTO</span>
               </div>
             </div>
           </div>

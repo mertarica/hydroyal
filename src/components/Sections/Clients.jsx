@@ -5,6 +5,7 @@ import Almi from '../../assets/img/clients/almi.svg';
 import StockholmMaterialHub from '../../assets/img/clients/smhub.png';
 import KTH from '../../assets/img/clients/kth.png';
 import RMA from '../../assets/img/clients/RMA.png';
+import Vinnova from '../../assets/img/clients/vinnova.png';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -29,6 +30,10 @@ const Wrapper = styled.section`
   }
   .width-50 {
     width: 50%;
+
+    @media (max-width: 860px) {
+      width: 100%;
+    }
   }
 `;
 
@@ -68,6 +73,9 @@ export default function ClientSlider() {
         </LogoWrapper>
         <LogoWrapper className='flexCenter width-50'>
           <ImgStyle src={RMA} alt='RMA logo' />
+        </LogoWrapper>
+        <LogoWrapper className='flexCenter'>
+          <ImgStyle src={Vinnova} alt='Vinnova logo' />
         </LogoWrapper>
       </div>
     </Wrapper>
