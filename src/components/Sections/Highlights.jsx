@@ -37,6 +37,7 @@ const CardContainer = styled.div`
   width: 100%;
   display: flex;
   gap: 8px;
+  white-space: break-spaces;
   > div > div > div {
     width: 100%;
   }
@@ -66,9 +67,15 @@ const CardContainer = styled.div`
 
 const items = [
   {
-    title: 'October, 2022',
-    cardTitle: 'First Test Drive',
-    cardSubtitle: 'Accepted to STING Testdrive Deeptech 2022',
+    title: 'November, 2023',
+    cardTitle: 'Grant',
+    cardSubtitle:
+      'Hydroyal has received a grant from Vinnova for Innovative Impact Startups \nwith the project "Super Efficient and Scalable Membrane Electrode Assemblies"',
+  },
+  {
+    title: 'January, 2023',
+    cardTitle: 'Officially Starting',
+    cardSubtitle: 'Our company was established as Hydroyal.',
   },
   {
     title: 'October, 2022',
@@ -76,25 +83,25 @@ const items = [
     cardSubtitle: 'Accepted to KTH Innovation Pre-incubator program',
   },
   {
-    title: 'January, 2023',
-    cardTitle: 'Officially Starting',
-    cardSubtitle: 'Our company was established as Hydroyal.',
+    title: 'October, 2022',
+    cardTitle: 'First Test Drive',
+    cardSubtitle: 'Accepted to STING Testdrive Deeptech 2022',
   },
 ];
 
 export default function Highlights() {
   return (
-    <Wrapper id='highlights'>
+    <Wrapper id="highlights">
       <HeaderInfo>
         <h1>Hylights</h1>
       </HeaderInfo>
-      <div className='container'>
+      <div className="container">
         <CardContainer>
           <Chrono
             items={items}
             mode="VERTICAL"
             showAllCardsHorizontal
-            itemWidth='2000'
+            itemWidth="2000"
             hideControls
             theme={{
               primary: '#024129',

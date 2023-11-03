@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json.schemastore.org/prettierrc",
+    "tabWidth": 4,
+    "useTabs": false,
+    "bracketSameLine": false,
+    "semi": true,
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "singleAttributePerLine": false,
+    "printWidth": 130,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": ".prettierrc",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "*.html",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.json",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.md",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.js",
+            "options": {
+                "parser": "babel",
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.jsx",
+            "options": {
+                "parser": "babel",
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.ts",
+            "options": {
+                "parser": "typescript"
+            }
+        },
+        {
+            "files": "*.tsx",
+            "options": {
+                "parser": "typescript"
+            }
+        }
+    ]
+}
