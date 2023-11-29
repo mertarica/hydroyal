@@ -68,6 +68,11 @@ const CardContainer = styled.div`
 const items = [
   {
     title: 'November, 2023',
+    cardTitle: 'KTH Pre-Incubator program was completed',
+    cardSubtitle: 'Hydroyal pitched in Demo Day of KTH Innovation Pre-Incubator',
+  },
+  {
+    title: 'November, 2023',
     cardTitle: 'Grant',
     cardSubtitle:
       'Hydroyal has received a grant from Vinnova for Innovative Impact Startups \nwith the project "Super Efficient and Scalable Membrane Electrode Assemblies"',
