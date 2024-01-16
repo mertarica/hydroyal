@@ -63,9 +63,30 @@ const CardContainer = styled.div`
   .right {
     min-width: 75px;
   }
+  .market-link {
+    text-decoration: underline !important;
+    color: #ff5a6e;
+  }
 `;
 
 const items = [
+  {
+    title: 'January, 2024',
+    cardTitle: "Hydroyal's MEAs are on sale!",
+    cardSubtitle: (
+      <div>
+        Hydroyal's MEAs are available on{' '}
+        <a
+          className="market-link"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.fuelcellstore.com/product/product&product_id=2043"
+        >
+          Fuel Cell Store
+        </a>
+      </div>
+    ),
+  },
   {
     title: 'November, 2023',
     cardTitle: 'KTH Pre-Incubator program was completed',
