@@ -6,6 +6,7 @@ import StockholmMaterialHub from '../../assets/img/clients/smhub.png';
 import KTH from '../../assets/img/clients/kth.png';
 import RMA from '../../assets/img/clients/RMA.png';
 import Vinnova from '../../assets/img/clients/vinnova.png';
+import Sting from '../../assets/img/clients/sting.png';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -58,24 +59,24 @@ export default function ClientSlider() {
   return (
     <Wrapper>
       <h1>Partners</h1>
-      <div className='container'>
-        <LogoWrapper className='flexCenter'>
-          <ImgStyle src={KTH} alt='KTH logo' />
+      <div className="container">
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={KTH} alt="KTH logo" />
         </LogoWrapper>
-        <LogoWrapper className='flexCenter'>
-          <ImgStyle
-            src={StockholmMaterialHub}
-            alt='Stockholm Material Hub Logo'
-          />
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={StockholmMaterialHub} alt="Stockholm Material Hub Logo" />
         </LogoWrapper>
-        <LogoWrapper className='flexCenter'>
-          <ImgStyle src={Almi} alt='Almi logo' />
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={Almi} alt="Almi logo" />
         </LogoWrapper>
-        <LogoWrapper className='flexCenter width-50'>
-          <ImgStyle src={RMA} alt='RMA logo' />
+        <LogoWrapper className="flexCenter width-50">
+          <ImgStyle src={RMA} alt="RMA logo" />
         </LogoWrapper>
-        <LogoWrapper className='flexCenter'>
-          <ImgStyle src={Vinnova} alt='Vinnova logo' />
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={Vinnova} alt="Vinnova logo" />
+        </LogoWrapper>
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={Sting} alt="Sting logo" />
         </LogoWrapper>
       </div>
     </Wrapper>
