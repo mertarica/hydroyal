@@ -5,7 +5,7 @@ import QuoteIcon from "../../assets/svg/Quotes";
 
 export default function TestimonialBox({ text, author }) {
   return (
-    <Wrapper className="darkBg radius8 flexNullCenter flexColumn">
+    <Wrapper className="greenBg radius8 flexNullCenter flexColumn">
       <QuoteWrapper>
         <QuoteIcon />
       </QuoteWrapper>

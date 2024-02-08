@@ -66,6 +66,10 @@ const TeamWrapper = styled.div`
   display: flex;
   justify-content: center;
   margin: 0 100px;
+
+  @media (max-width: 860px) {
+    margin: 0 50px;
+  }
   .item:hover .thumb::after {
     opacity: 0.7;
   }
