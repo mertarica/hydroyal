@@ -76,7 +76,9 @@ export default function ClientSlider() {
           <ImgStyle src={Vinnova} alt="Vinnova logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={Sting} alt="Sting logo" />
+          <a href="https://www.sting.co/companies/hydroyal-ab" rel="noreferrer" target="_blank">
+            <ImgStyle src={Sting} alt="Sting logo" />
+          </a>
         </LogoWrapper>
       </div>
     </Wrapper>
