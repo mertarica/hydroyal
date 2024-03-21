@@ -357,7 +357,7 @@ export default function Projects() {
           </VideoLeftWrapper>
           <FrameWrapper>
             <iframe
-              src={`https://www.youtube.com/embed/ZsZlacupkr4?autoplay=1&playlist=ZsZlacupkr4&loop=1&controls=0&rel=0`}
+              src={`https://www.youtube.com/embed/ZsZlacupkr4?playlist=ZsZlacupkr4&loop=1&controls=0&rel=0`}
               frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'
               allowFullScreen
