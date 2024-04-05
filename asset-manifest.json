@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb96d115.css",
-    "main.js": "/static/js/main.1f420e97.js",
+    "main.css": "/static/css/main.e4f25c65.css",
+    "main.js": "/static/js/main.0180ce03.js",
     "static/js/787.20ae8a46.chunk.js": "/static/js/787.20ae8a46.chunk.js",
+    "static/media/membrane_1.jpg": "/static/media/membrane_1.cb3941e67a2e863ff604.jpg",
+    "static/media/membrane_2.jpg": "/static/media/membrane_2.c3649248e869546c61b5.jpg",
     "static/media/bg.png": "/static/media/bg.1757ffcfc2762f1305ab.png",
     "static/media/kth.png": "/static/media/kth.0bf91b728b16c74be31c.png",
     "static/media/3.png": "/static/media/3.5267a89b731f1a174199.png",
@@ -12,7 +14,6 @@
     "static/media/2.png": "/static/media/2.407fc007dfdd6e398374.png",
     "static/media/mess_production.jpg": "/static/media/mess_production.4d5973b9a57c110afe3d.jpg",
     "static/media/lindbergh.jpg": "/static/media/lindbergh.dda164ea2698dc0ef028.jpg",
-    "static/media/manufacturing_process.jpg": "/static/media/manufacturing_process.2699b565cf12a5066f76.jpg",
     "static/media/schema.jpg": "/static/media/schema.702e3aa6e9414b6c7997.jpg",
     "static/media/smhub.png": "/static/media/smhub.b066c999e7c82cc57ece.png",
     "static/media/RMA.png": "/static/media/RMA.f88282729b78dc418e08.png",
@@ -23,12 +24,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.fb96d115.css.map": "/static/css/main.fb96d115.css.map",
-    "main.1f420e97.js.map": "/static/js/main.1f420e97.js.map",
+    "main.e4f25c65.css.map": "/static/css/main.e4f25c65.css.map",
+    "main.0180ce03.js.map": "/static/js/main.0180ce03.js.map",
     "787.20ae8a46.chunk.js.map": "/static/js/787.20ae8a46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb96d115.css",
-    "static/js/main.1f420e97.js"
+    "static/css/main.e4f25c65.css",
+    "static/js/main.0180ce03.js"
   ]
 }
