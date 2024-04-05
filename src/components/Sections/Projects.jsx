@@ -6,7 +6,6 @@ import ProjectBox from '../Elements/ProjectBox';
 import MessImg from '../../assets/img/projects/mess_production.jpg';
 import ProjectImg2 from '../../assets/img/projects/2.png';
 import ProjectImg3 from '../../assets/img/projects/3.png';
-import ManufacturingProcess from '../../assets/img/projects/manufacturing_process.jpg';
 import Membrane1 from '../../assets/img/projects/membrane_1.jpg';
 import Membrane2 from '../../assets/img/projects/membrane_2.jpg';
 import ImageGallery from 'react-image-gallery';
@@ -104,10 +103,6 @@ export default function Projects() {
     {
       original: Membrane2,
       thumbnail: Membrane2,
-    },
-    {
-      original: ManufacturingProcess,
-      thumbnail: ManufacturingProcess,
     },
   ];
 
