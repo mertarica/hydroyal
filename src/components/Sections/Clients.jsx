@@ -7,6 +7,7 @@ import KTH from '../../assets/img/clients/kth.png';
 import RMA from '../../assets/img/clients/RMA.png';
 import Vinnova from '../../assets/img/clients/vinnova.png';
 import Sting from '../../assets/img/clients/sting.png';
+import Energimyndigheten from '../../assets/img/clients/energimyndigheten.png';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -44,7 +45,7 @@ const LogoWrapper = styled.div`
     width: 80%;
     margin: auto;
   }
-  margin-top: auto;
+  ${(props) => (props.noMargin ? 'margin: unset;' : 'margin-top: auto;')}
   :focus-visible {
     outline: none;
     border: 0px;
@@ -74,6 +75,9 @@ export default function ClientSlider() {
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <ImgStyle src={Vinnova} alt="Vinnova logo" />
+        </LogoWrapper>
+        <LogoWrapper className="flexCenter" noMargin={true}>
+          <ImgStyle src={Energimyndigheten} alt="Energimyndigheten logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <a href="https://www.sting.co/companies/hydroyal-ab" rel="noreferrer" target="_blank">

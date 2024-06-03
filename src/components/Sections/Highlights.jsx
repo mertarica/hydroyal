@@ -71,6 +71,12 @@ const CardContainer = styled.div`
 
 const items = [
   {
+    title: 'June, 2024',
+    cardTitle: 'Grant',
+    cardSubtitle:
+      'Hydroyal received a grant from Energimyndigheten for the development of the concept for CCM for AEM Water Electrolysis with the project “Green hydrogen production with next-generation water electrolysis: New development of MEA for industrial purposes”',
+  },
+  {
     title: 'January, 2024',
     cardTitle: "Hydroyal's MEAs are on sale!",
     cardSubtitle: (
