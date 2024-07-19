@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
+import { Link as LinkHref } from 'react-router-dom';
 // Assets
 import logo from '../../assets/img/logo.png';
 import CloseIcon from '../../assets/svg/CloseIcon';
@@ -151,6 +152,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Hylights
           </Link>
+        </li>
+        <li className="semiBold font15 pointer">"
+          <LinkHref onClick={() => toggleSidebar(!sidebarOpen)} to="/career" target="_blank"
+            className="whiteColor">
+            Career
+          </LinkHref>
         </li>
         <li className="semiBold font15 pointer">
           <Link
