@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
+import { Link as LinkHref } from 'react-router-dom';
 // Components
 import logo from '../../assets/img/logo.png';
 import ShoppingCart from '../../assets/svg/ShoppingCart';
@@ -125,6 +126,11 @@ export default function TopNavbar() {
               <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-80}>
                 Our Product
               </Link>
+            </li>
+            <li className="semiBold font15 pointer">
+              <LinkHref activeClass="active" to="/career" target="_blank">
+                Career
+              </LinkHref>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" to="highlights" spy={true} smooth={true} offset={-80}>
