@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
-import { Link as LinkHref } from 'react-router-dom';
 // Components
 import logo from '../../assets/img/logo.png';
 import ShoppingCart from '../../assets/svg/ShoppingCart';
 import BurgerIcon from '../../assets/svg/BurgerIcon';
 import Sidebar from '../../components/Nav/Sidebar';
 import Backdrop from '../../components/Elements/Backdrop';
+import Career from '../../components/Sections/Career';
 
 const Img = styled.img`
   width: 60px;
@@ -128,14 +128,12 @@ export default function TopNavbar() {
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <LinkHref activeClass="active" to="/career" target="_blank">
-                Career
-              </LinkHref>
-            </li>
-            <li className="semiBold font15 pointer">
               <Link activeClass="active" to="highlights" spy={true} smooth={true} offset={-80}>
                 Hylights
               </Link>
+            </li>
+            <li className="semiBold font15 pointer">
+              <Career />
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80}>
