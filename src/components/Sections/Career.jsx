@@ -132,19 +132,16 @@ const CloseIcon = styled.span`
 `;
 
 // Career Component
-export default function Career() {
+export default function Career({ textClass = false }) {
   const [isOpen, setIsOpen] = useState(false);
-
-  const openDialog = () => setIsOpen(true);
-  const closeDialog = () => setIsOpen(false);
 
   return (
     <>
-      <Link onClick={() => setIsOpen(true)}>Career</Link>
+      <Link className={textClass ? textClass : "" } onClick={() => setIsOpen(true)}>Career</Link>
       {isOpen && (
         <DialogOverlay>
           <DialogContent>
-            <CloseButton onClick={closeDialog}>
+            <CloseButton onClick={() => setIsOpen(false)}>
               <CloseIcon />
             </CloseButton>
             <HeaderWrapper>

@@ -6,6 +6,7 @@ import { Link as LinkHref } from 'react-router-dom';
 import logo from '../../assets/img/logo.png';
 import CloseIcon from '../../assets/svg/CloseIcon';
 import ShoppingCart from '../../assets/svg/ShoppingCart';
+import Career from '../Sections/Career';
 
 const Wrapper = styled.nav`
   width: 300px;
@@ -153,11 +154,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Hylights
           </Link>
         </li>
-        <li className="semiBold font15 pointer">"
-          <LinkHref onClick={() => toggleSidebar(!sidebarOpen)} to="/career" target="_blank"
-            className="whiteColor">
-            Career
-          </LinkHref>
+        <li className="semiBold font15 pointer">
+          <Career textClass="whiteColor" />
         </li>
         <li className="semiBold font15 pointer">
           <Link
