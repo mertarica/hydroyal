@@ -488,11 +488,11 @@ export default function Projects() {
                 </div>
               </div>
               <div className="info">
-                <span className="message">
+                {/* <span className="message">
                   <a href="mailto:matteo@hydroyal.com">
                     <i className="fas fa-envelope-open"></i>
                   </a>
-                </span>
+                </span> */}
                 <h4>Markus Holmström, MSc</h4>
                 <span>Head of Business Development</span>
               </div>
