@@ -504,7 +504,7 @@ export default function Projects() {
         </HeaderInfo>
 
         <TeamWrapper className="team-area row team-items">
-          <div className="col-md-4 single-item">
+          <div className="col-md-3 single-item">
             <div className="item">
               <div className="thumb">
                 <img className="img-fluid" src={LindberghProfile} alt="Thumb" />
