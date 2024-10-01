@@ -83,16 +83,6 @@ const AddLeftInner = styled.div`
     }
   }
 `;
-const ImgWrapper = styled.div`
-  width: 100%;
-  img {
-    width: 100%;
-    height: auto;
-  }
-  @media (max-width: 400px) {
-    padding: 0;
-  }
-`;
 
 export default function Projects() {
   const images = [

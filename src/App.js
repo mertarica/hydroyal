@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 // Screens
-import { createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Landing from './screens/Landing.jsx';
 
 const router = createBrowserRouter([

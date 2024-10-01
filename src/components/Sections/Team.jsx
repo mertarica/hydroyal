@@ -5,6 +5,7 @@ import BurakProfile from '../../assets/img/team/burak.jpg';
 import MelikeProfile from '../../assets/img/team/melike.jpg';
 import LindberghProfile from '../../assets/img/team/lindbergh.jpg';
 import MatteoProfile from '../../assets/img/team/matteo.jpg';
+import MarkusProfile from '../../assets/img/team/markus.jpg';
 import SchemaImage from '../../assets/img/projects/schema.jpg';
 
 const Wrapper = styled.section`
@@ -65,7 +66,6 @@ const VideoLeftWrapper = styled.div`
 const TeamWrapper = styled.div`
   display: flex;
   justify-content: center;
-  margin: 0 100px;
 
   @media (max-width: 860px) {
     margin: 0 50px;
@@ -144,7 +144,7 @@ const TeamWrapper = styled.div`
     -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     object-position: top;
   }
@@ -180,6 +180,7 @@ const TeamWrapper = styled.div`
     position: relative;
     text-align: center;
     z-index: 9;
+    min-height: 120px;
   }
 
   .info .message {
@@ -225,7 +226,6 @@ const TeamWrapper = styled.div`
     color: #ff5a6e;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    text-transform: uppercase;
   }
 
   .social li.twitter a {
@@ -321,87 +321,81 @@ const ImgWrapper = styled.div`
 export default function Projects() {
   return (
     <Wrapper>
-      <div id='aboutus' className='container'>
+      <div id="aboutus" className="container">
         <HeaderInfo>
-          <h1 className='font40 extraBold'>What Is Hydroyal?</h1>
+          <h1 className="font40 extraBold">What Is Hydroyal?</h1>
         </HeaderInfo>
-        <Advertising className='flexSpaceCenter'>
+        <Advertising className="flexSpaceCenter">
           <AddLeft>
             <AddLeftInner>
-              <ImgWrapper className='flexCenter'>
-                <img className='radius8' src={SchemaImage} alt='add' />
+              <ImgWrapper className="flexCenter">
+                <img className="radius8" src={SchemaImage} alt="add" />
               </ImgWrapper>
             </AddLeftInner>
           </AddLeft>
           <AddRight>
-            <p className='font25'>
-              Hydroyal is a pioneer in large-scale MEA production for Alkaline
-              Electrolysis and Anion Exchange Membrane Electrolysis, with
-              eco-friendly and sustainable materials.
+            <p className="font25">
+              Hydroyal is a pioneer in large-scale MEA production for Alkaline Electrolysis and Anion Exchange Membrane
+              Electrolysis, with eco-friendly and sustainable materials.
             </p>
           </AddRight>
         </Advertising>
 
         <HeaderInfo>
-          <h1 className='font40 extraBold'>Green Hydrogen</h1>
+          <h1 className="font40 extraBold">Green Hydrogen</h1>
         </HeaderInfo>
-        <Advertising className='flexSpaceCenter'>
+        <Advertising className="flexSpaceCenter">
           <VideoLeftWrapper>
-            <p className='font25'>
-              Green hydrogen is a clean and renewable energy carrier that is
-              produced by using renewable sources of electricity to split water
-              molecules into hydrogen and oxygen. It holds promise as a
-              versatile and carbon-free fuel for various sectors, including
-              transportation, industry, and energy storage.
+            <p className="font25">
+              Green hydrogen is a clean and renewable energy carrier that is produced by using renewable sources of electricity to
+              split water molecules into hydrogen and oxygen. It holds promise as a versatile and carbon-free fuel for various
+              sectors, including transportation, industry, and energy storage.
             </p>
           </VideoLeftWrapper>
           <FrameWrapper>
             <iframe
               src={`https://www.youtube.com/embed/ZsZlacupkr4?playlist=ZsZlacupkr4&loop=1&controls=0&rel=0`}
-              frameBorder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
               allowFullScreen
               title={'title'}
             />
           </FrameWrapper>
         </Advertising>
       </div>
-      <div id='team' className='container'>
+      <div id="team" className="container">
         <HeaderInfo>
-          <h1 className='font40 extraBold'>Meet The Team</h1>
+          <h1 className="font40 extraBold">Meet The Team</h1>
         </HeaderInfo>
 
-        <TeamWrapper className='team-area row team-items'>
-          <div className='col-md-4 single-item'>
-            <div className='item'>
-              <div className='thumb'>
-                <img className='img-fluid' src={BurakProfile} alt='Thumb' />
-                <div className='overlay'>
+        <TeamWrapper className="team-area row team-items">
+          <div className="col-md-3 single-item">
+            <div className="item">
+              <div className="thumb">
+                <img className="img-fluid" src={BurakProfile} alt="Thumb" />
+                <div className="overlay">
                   <h4>Burak Koyutürk</h4>
-                  <p>
-                    Burak is chemical engineer in the Division of Applied
-                    Electrochemistry at KTH.
-                  </p>
-                  <div className='social'>
+                  <p>Burak is chemical engineer in the Division of Applied Electrochemistry at KTH.</p>
+                  <div className="social">
                     <ul>
-                      <li className='linkedin'>
-                        <a href='https://www.linkedin.com/in/burak-koyuturk/'>
-                          <i className='fab fa-linkedin'></i>
+                      <li className="linkedin">
+                        <a href="https://www.linkedin.com/in/burak-koyuturk/">
+                          <i className="fab fa-linkedin"></i>
                         </a>
                       </li>
-                      <li className='google-plus'>
-                        <a href='https://scholar.google.se/citations?user=qEMtu-IAAAAJ&hl=tr&oi=ao'>
-                          <i className='fab fa-google'></i>
+                      <li className="google-plus">
+                        <a href="https://scholar.google.se/citations?user=qEMtu-IAAAAJ&hl=tr&oi=ao">
+                          <i className="fab fa-google"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className='info'>
-                <span className='message'>
-                  <a href='mailto:burak@hydroyal.com'>
-                    <i className='fas fa-envelope-open'></i>
+              <div className="info">
+                <span className="message">
+                  <a href="mailto:burak@hydroyal.com">
+                    <i className="fas fa-envelope-open"></i>
                   </a>
                 </span>
                 <h4>Burak Koyutürk, PhD</h4>
@@ -409,31 +403,28 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className='col-md-4 single-item'>
-            <div className='item'>
-              <div className='thumb'>
-                <img className='img-fluid' src={MatteoProfile} alt='Thumb' />
-                <div className='overlay'>
+          <div className="col-md-3 single-item">
+            <div className="item">
+              <div className="thumb">
+                <img className="img-fluid" src={MatteoProfile} alt="Thumb" />
+                <div className="overlay">
                   <h4>Matteo Rossini</h4>
-                  <p>
-                    Matteo is chemical engineer in the Division of Applied
-                    Electrochemistry at KTH.
-                  </p>
-                  <div className='social'>
+                  <p>Matteo is chemical engineer in the Division of Applied Electrochemistry at KTH.</p>
+                  <div className="social">
                     <ul>
-                      <li className='linkedin'>
-                        <a href='https://www.linkedin.com/in/matteo-rossini-6032bb182/'>
-                          <i className='fab fa-linkedin'></i>
+                      <li className="linkedin">
+                        <a href="https://www.linkedin.com/in/matteo-rossini-6032bb182/">
+                          <i className="fab fa-linkedin"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className='info'>
-                <span className='message'>
-                  <a href='mailto:matteo@hydroyal.com'>
-                    <i className='fas fa-envelope-open'></i>
+              <div className="info">
+                <span className="message">
+                  <a href="mailto:matteo@hydroyal.com">
+                    <i className="fas fa-envelope-open"></i>
                   </a>
                 </span>
                 <h4>Matteo Rossini, MSc</h4>
@@ -441,36 +432,33 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className='col-md-4 single-item'>
-            <div className='item'>
-              <div className='thumb'>
-                <img className='img-fluid' src={MelikeProfile} alt='Thumb' />
-                <div className='overlay'>
+          <div className="col-md-3 single-item">
+            <div className="item">
+              <div className="thumb">
+                <img className="img-fluid" src={MelikeProfile} alt="Thumb" />
+                <div className="overlay">
                   <h4>Melike Babucci</h4>
-                  <p>
-                    Melike is chemical engineer in the Department of Materials
-                    Science and Engineering at Uppsala University.
-                  </p>
-                  <div className='social'>
+                  <p>Melike is chemical engineer in the Department of Materials Science and Engineering at Uppsala University.</p>
+                  <div className="social">
                     <ul>
-                      <li className='linkedin'>
-                        <a href='https://www.linkedin.com/in/melikebabucci/'>
-                          <i className='fab fa-linkedin'></i>
+                      <li className="linkedin">
+                        <a href="https://www.linkedin.com/in/melikebabucci/">
+                          <i className="fab fa-linkedin"></i>
                         </a>
                       </li>
-                      <li className='google-plus'>
-                        <a href='https://scholar.google.se/citations?user=ce6v9hMAAAAJ&hl=tr&oi=ao'>
-                          <i className='fab fa-google'></i>
+                      <li className="google-plus">
+                        <a href="https://scholar.google.se/citations?user=ce6v9hMAAAAJ&hl=tr&oi=ao">
+                          <i className="fab fa-google"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className='info'>
-                <span className='message'>
-                  <a href='mailto:melike@hydroyal.com'>
-                    <i className='fas fa-envelope-open'></i>
+              <div className="info">
+                <span className="message">
+                  <a href="mailto:melike@hydroyal.com">
+                    <i className="fas fa-envelope-open"></i>
                   </a>
                 </span>
                 <h4>Melike Babucci, PhD</h4>
@@ -478,25 +466,57 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div className="col-md-3 single-item">
+            <div className="item">
+              <div className="thumb">
+                <img className="img-fluid" src={MarkusProfile} alt="Thumb" />
+                <div className="overlay">
+                  <h4>Markus Holmström</h4>
+                  <p>
+                    Markus holds an M.Sc. in Business Economics and has over 9 years of experience in strategic business
+                    development.
+                  </p>
+                  <div className="social">
+                    <ul>
+                      <li className="linkedin">
+                        <a href="https://www.linkedin.com/in/markus-daniel-holmstrom/">
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info">
+                <span className="message">
+                  <a href="mailto:matteo@hydroyal.com">
+                    <i className="fas fa-envelope-open"></i>
+                  </a>
+                </span>
+                <h4>Markus Holmström, MSc</h4>
+                <span>Head of Business Development</span>
+              </div>
+            </div>
+          </div>
         </TeamWrapper>
         <HeaderInfo>
-          <h1 className='font40 extraBold'>Advisory Board</h1>
+          <h1 className="font40 extraBold">Advisory Board</h1>
         </HeaderInfo>
 
-        <TeamWrapper className='team-area row team-items'>
-          <div className='col-md-4 single-item'>
-            <div className='item'>
-              <div className='thumb'>
-                <img className='img-fluid' src={LindberghProfile} alt='Thumb' />
-                <div className='overlay'>
+        <TeamWrapper className="team-area row team-items">
+          <div className="col-md-4 single-item">
+            <div className="item">
+              <div className="thumb">
+                <img className="img-fluid" src={LindberghProfile} alt="Thumb" />
+                <div className="overlay">
                   <h4>Professor Göran Lindbergh</h4>
                   <p>Head of Division of Applied Electrochemistry at KTH</p>
                 </div>
               </div>
-              <div className='info'>
-                <span className='message'>
-                  <a href='mailto:gnli@kth.se'>
-                    <i className='fas fa-envelope-open'></i>
+              <div className="info">
+                <span className="message">
+                  <a href="mailto:gnli@kth.se">
+                    <i className="fas fa-envelope-open"></i>
                   </a>
                 </span>
                 <h4>Professor Göran Lindbergh</h4>
