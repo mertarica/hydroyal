@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 // Assets
 import logo from '../../assets/img/logo.png';
 import CloseIcon from '../../assets/svg/CloseIcon';
-import Career from '../Sections/Career';
+// import Career from '../Sections/Career';
 
 const Wrapper = styled.nav`
   width: 300px;
@@ -152,9 +152,9 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Hylights
           </Link>
         </li>
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <Career textClass="whiteColor" />
-        </li>
+        </li> */}
         <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}

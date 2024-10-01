@@ -6,7 +6,7 @@ import logo from '../../assets/img/logo.png';
 import BurgerIcon from '../../assets/svg/BurgerIcon';
 import Sidebar from '../../components/Nav/Sidebar';
 import Backdrop from '../../components/Elements/Backdrop';
-import Career from '../../components/Sections/Career';
+// import Career from '../../components/Sections/Career';
 
 const Img = styled.img`
   width: 60px;
@@ -131,9 +131,9 @@ export default function TopNavbar() {
                 Hylights
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            {/* <li className="semiBold font15 pointer">
               <Career />
-            </li>
+            </li> */}
             <li className="semiBold font15 pointer">
               <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80}>
                 Contact
