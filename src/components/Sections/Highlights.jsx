@@ -71,6 +71,12 @@ const CardContainer = styled.div`
 
 const items = [
   {
+    title: 'November, 2024',
+    cardTitle: 'Grant',
+    cardSubtitle:
+      'Hydroyal has received the "Acceleration of Deeptech" grant from Vinnova for the project: Scalable and Advanced Water Electrolysis for Green Hydrogen H2.',
+  },
+  {
     title: 'June, 2024',
     cardTitle: 'Grant',
     cardSubtitle:

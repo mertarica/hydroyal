@@ -6,6 +6,7 @@ import MelikeProfile from '../../assets/img/team/melike.jpg';
 import LindberghProfile from '../../assets/img/team/lindbergh.jpg';
 import MatteoProfile from '../../assets/img/team/matteo.jpg';
 import MarkusProfile from '../../assets/img/team/markus.jpg';
+import AndersProfile from '../../assets/img/team/anders.jpg';
 import SchemaImage from '../../assets/img/projects/schema.jpg';
 
 const Wrapper = styled.section`
@@ -520,6 +521,24 @@ export default function Projects() {
                   </a>
                 </span>
                 <h4>Professor Göran Lindbergh</h4>
+                <span>Advisor</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 single-item">
+            <div className="item">
+              <div className="thumb">
+                <img className="img-fluid" src={AndersProfile} alt="Thumb" />
+                <div className="overlay">
+                  <h4>Anders Näslund</h4>
+                  <p>
+                    Anders Näslund is manager and entrepreneur with experience from change management and business development in
+                    energy, IT and logistics, with the academic background in data & electronics and executive MBA from SSE.
+                  </p>
+                </div>
+              </div>
+              <div className="info">
+                <h4>Anders Näslund</h4>
                 <span>Advisor</span>
               </div>
             </div>
