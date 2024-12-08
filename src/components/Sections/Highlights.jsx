@@ -82,23 +82,23 @@ const items = [
     cardSubtitle:
       'Hydroyal received a grant from Energimyndigheten for the development of the concept for CCM for AEM Water Electrolysis with the project “Green hydrogen production with next-generation water electrolysis: New development of MEA for industrial purposes”',
   },
-  {
-    title: 'January, 2024',
-    cardTitle: "Hydroyal's MEAs are on sale!",
-    cardSubtitle: (
-      <div>
-        Hydroyal's MEAs are available on{' '}
-        <a
-          className="market-link"
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.fuelcellstore.com/product/product&product_id=2043"
-        >
-          Fuel Cell Store
-        </a>
-      </div>
-    ),
-  },
+  // {
+  //   title: 'January, 2024',
+  //   cardTitle: "Hydroyal's MEAs are on sale!",
+  //   cardSubtitle: (
+  //     <div>
+  //       Hydroyal's MEAs are available on{' '}
+  //       <a
+  //         className="market-link"
+  //         target="_blank"
+  //         rel="noreferrer"
+  //         href="https://www.fuelcellstore.com/product/product&product_id=2043"
+  //       >
+  //         Fuel Cell Store
+  //       </a>
+  //     </div>
+  //   ),
+  // },
   {
     title: 'November, 2023',
     cardTitle: 'KTH Pre-Incubator program was completed',
