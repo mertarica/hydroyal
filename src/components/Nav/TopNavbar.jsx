@@ -6,6 +6,7 @@ import logo from '../../assets/img/logo.png';
 import BurgerIcon from '../../assets/svg/BurgerIcon';
 import Sidebar from '../../components/Nav/Sidebar';
 import Backdrop from '../../components/Elements/Backdrop';
+import PrivacyPolicy from '../Sections/PrivacyPolicy';
 // import Career from '../../components/Sections/Career';
 
 const Img = styled.img`
@@ -138,6 +139,9 @@ export default function TopNavbar() {
               <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80}>
                 Contact
               </Link>
+            </li>
+            <li className="semiBold font15 pointer">
+              <PrivacyPolicy />
             </li>
             {/* <li>
               <a href="https://www.fuelcellstore.com/product/product&product_id=2043" target="_blank" rel={'noreferrer'}>
