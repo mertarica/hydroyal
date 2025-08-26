@@ -5,9 +5,6 @@
   "homepage": "https://hydroyal.com",
   "dependencies": {
     "@formspree/react": "^2.4.4",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "react": "^18.2.0",
     "react-chrono": "^2.2.0",
     "react-dom": "^18.2.0",
@@ -18,21 +15,18 @@
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.1",
-    "web-vitals": "^1.1.2"
+    "styled-components": "^5.3.1"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
