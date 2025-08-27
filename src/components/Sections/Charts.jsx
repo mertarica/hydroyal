@@ -139,7 +139,7 @@ export default function Charts() {
                   type='submit'
                   disabled={state.submitting || state.succeeded}
                 >
-                  {state.succeeded ? 'Thank You! Check your email.' : 'Get Research Report'}
+                  {state.succeeded ? 'Thank You! Check your email.' : 'Get Data Sheet'}
                 </SubmitButton>
               </EmailForm>
             </ModalBody>
