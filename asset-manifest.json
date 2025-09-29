@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b0522f1.css",
-    "main.js": "/static/js/main.abd334c6.js",
+    "main.js": "/static/js/main.40b3b9e0.js",
     "static/media/membrane_1.jpg": "/static/media/membrane_1.cb3941e67a2e863ff604.jpg",
     "static/media/membrane_2.jpg": "/static/media/membrane_2.c3649248e869546c61b5.jpg",
     "static/media/bg.png": "/static/media/bg.1757ffcfc2762f1305ab.png",
@@ -17,9 +17,11 @@
     "static/media/lindbergh.jpg": "/static/media/lindbergh.dda164ea2698dc0ef028.jpg",
     "static/media/schema.jpg": "/static/media/schema.702e3aa6e9414b6c7997.jpg",
     "static/media/anders.jpg": "/static/media/anders.14e5645d5ba1fbb0b126.jpg",
+    "static/media/plug-and-play-logo.png": "/static/media/plug-and-play-logo.d3355fc7875a3b5838a8.png",
     "static/media/smhub.png": "/static/media/smhub.b066c999e7c82cc57ece.png",
     "static/media/RMA.png": "/static/media/RMA.f88282729b78dc418e08.png",
     "static/media/sting.png": "/static/media/sting.d71c522fda4381f220e1.png",
+    "static/media/propel-capital.avif": "/static/media/propel-capital.bbcb08616366040f43e4.avif",
     "static/media/almi.svg": "/static/media/almi.817570b056bca4e06eafd505659d2d59.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -27,10 +29,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.3b0522f1.css.map": "/static/css/main.3b0522f1.css.map",
-    "main.abd334c6.js.map": "/static/js/main.abd334c6.js.map"
+    "main.40b3b9e0.js.map": "/static/js/main.40b3b9e0.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0522f1.css",
-    "static/js/main.abd334c6.js"
+    "static/js/main.40b3b9e0.js"
   ]
 }
