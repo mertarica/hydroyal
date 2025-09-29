@@ -42,12 +42,11 @@ const Wrapper = styled.section`
 `;
 
 const LogoWrapper = styled.div`
-  width: calc(33% - 5rem);
+  width: calc(25% - 5rem);
   @media (max-width: 860px) {
     width: 80%;
     margin: auto;
   }
-  ${(props) => (props.noMargin ? 'margin: unset;' : 'margin-top: auto;')}
   :focus-visible {
     outline: none;
     border: 0px;
@@ -78,7 +77,7 @@ export default function ClientSlider() {
         <LogoWrapper className="flexCenter">
           <ImgStyle src={Vinnova} alt="Vinnova logo" />
         </LogoWrapper>
-        <LogoWrapper className="flexCenter" noMargin={true}>
+        <LogoWrapper className="flexCenter">
           <ImgStyle src={Energimyndigheten} alt="Energimyndigheten logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
