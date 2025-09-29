@@ -8,6 +8,8 @@ import RMA from '../../assets/img/clients/RMA.png';
 import Vinnova from '../../assets/img/clients/vinnova.png';
 import Sting from '../../assets/img/clients/sting.png';
 import Energimyndigheten from '../../assets/img/clients/energimyndigheten.png';
+import PlugAndPlay from '../../assets/img/clients/plug-and-play-logo.png';
+import PropelCapital from '../../assets/img/clients/propel-capital.avif';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -83,6 +85,12 @@ export default function ClientSlider() {
           <a href="https://www.sting.co/companies/hydroyal-ab" rel="noreferrer" target="_blank">
             <ImgStyle src={Sting} alt="Sting logo" />
           </a>
+        </LogoWrapper>
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={PropelCapital} alt="Propel Capital logo" />
+        </LogoWrapper>
+        <LogoWrapper className="flexCenter">
+          <ImgStyle src={PlugAndPlay} alt="Plug and Play logo" />
         </LogoWrapper>
       </div>
     </Wrapper>
