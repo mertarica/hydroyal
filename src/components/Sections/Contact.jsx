@@ -108,7 +108,7 @@ export default function Contact() {
                       <p className='box-contacts-link'>
                         <span>Hydroyal AB</span>
                         <br />
-                        Hagalundsgatan 32, 169 64 Solna, Sweden
+                        Isafjordsgatan 22, Electrum 229, SE-164 40 Kista, Sweden
                         <br />
                       </p>
                     </div>

@@ -193,7 +193,7 @@ export default function PrivacyPolicy({ textClass = false }) {
                 In case you have any questions about Our company's privacy policy, the data we hold of you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.
               </Description>
               <Contact>Email: info@hydroyal.com</Contact>
-              <Contact>Mail Address: Hagalundsgatan 32, Solna, Stockholm, Sweden</Contact>
+              <Contact>Mail Address: Isafjordsgatan 22, Electrum 229, SE-164 40 Kista, Sweden</Contact>
             </Container>
           </DialogContent>
         </DialogOverlay>
