@@ -4,6 +4,7 @@ import { Chrono } from 'react-chrono';
 
 const Wrapper = styled.section`
   width: 100%;
+  overflow-x: hidden;
   background: linear-gradient(#fff, #c9f89d, #fff);
   section {
     padding: 0;
@@ -35,9 +36,13 @@ const HeaderInfo = styled.div`
 
 const CardContainer = styled.div`
   width: 100%;
+  overflow: visible;
   display: flex;
   gap: 8px;
   white-space: break-spaces;
+  * {
+    overflow: visible !important;
+  }
   > div > div > div {
     width: 100%;
   }
