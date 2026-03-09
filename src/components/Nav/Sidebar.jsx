@@ -119,7 +119,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Hylights
+            Highlights
           </Link>
         </li>
         {/* <li className="semiBold font15 pointer">

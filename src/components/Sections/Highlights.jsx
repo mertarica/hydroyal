@@ -71,6 +71,12 @@ const CardContainer = styled.div`
 
 const items = [
   {
+    title: 'December, 2025',
+    cardTitle: 'EU Project',
+    cardSubtitle:
+      'ThinCoatAEM (CETP) project started. We push the boundaries of PGM-free electrolysis.',
+  },
+  {
     title: 'November, 2024',
     cardTitle: 'Grant',
     cardSubtitle:
@@ -131,7 +137,7 @@ export default function Highlights() {
   return (
     <Wrapper id="highlights">
       <HeaderInfo>
-        <h1>Hylights</h1>
+        <h1>Highlights</h1>
       </HeaderInfo>
       <div className="container">
         <CardContainer>

@@ -98,7 +98,7 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" to="highlights" spy={true} smooth={true} offset={-80}>
-                Hylights
+                Highlights
               </Link>
             </li>
 
