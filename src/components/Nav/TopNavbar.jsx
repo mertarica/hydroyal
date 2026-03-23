@@ -8,6 +8,8 @@ import Sidebar from '../../components/Nav/Sidebar';
 import Backdrop from '../../components/Elements/Backdrop';
 import PrivacyPolicy from '../Sections/PrivacyPolicy';
 
+import ShoppingCart from '../../assets/svg/ShoppingCart';
+
 const Img = styled.img`
   width: 60px;
 `;
@@ -51,6 +53,39 @@ const BurgerMenu = styled.button`
   }
 `;
 
+const CTAButton = styled.div`
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #027200;
+  height: 48px;
+  &:hover {
+    background-color: #1db954;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  svg {
+    color: #027200;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+  }
+`;
+
+
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
   const [sidebarOpen, toggleSidebar] = useState(false);
@@ -87,11 +122,6 @@ export default function TopNavbar() {
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" to="team" spy={true} smooth={true} offset={-80}>
-                Team
-              </Link>
-            </li>
-            <li className="semiBold font15 pointer">
               <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-80}>
                 Our Product
               </Link>
@@ -111,7 +141,7 @@ export default function TopNavbar() {
               <PrivacyPolicy />
             </li>
             {/* <li>
-              <a href="https://www.fuelcellstore.com/product/product&product_id=2043" target="_blank" rel={'noreferrer'}>
+              <a href="https://shop.hydroyal.com/" target="_blank" rel={'noreferrer'}>
                 <CTAButton>
                   <ShoppingCart width={24} height={24} />
                   Buy Now

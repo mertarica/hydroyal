@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 // Assets
 import logo from '../../assets/img/logo.png';
 import CloseIcon from '../../assets/svg/CloseIcon';
+import ShoppingCart from '../../assets/svg/ShoppingCart';
 
 
 const Wrapper = styled.nav`
@@ -44,7 +45,37 @@ const UlStyle = styled.ul`
   }
 `;
 
+const CTAButton = styled.div`
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #027200;
+  height: 48px;
+  &:hover {
+    background-color: #1db954;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
 
+  svg {
+    color: #027200;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+  }
+`;
 
 export default function Sidebar({ sidebarOpen, toggleSidebar }) {
   return (
@@ -81,19 +112,6 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             offset={-60}
           >
             About Us
-          </Link>
-        </li>
-        <li className="semiBold font15 pointer">
-          <Link
-            onClick={() => toggleSidebar(!sidebarOpen)}
-            activeClass="active"
-            className="whiteColor"
-            to="team"
-            spy={true}
-            smooth={true}
-            offset={-60}
-          >
-            Team
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -139,7 +157,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </Link>
         </li>
         {/* <li>
-          <a href="https://www.fuelcellstore.com/product/product&product_id=2043" target="_blank" rel={'noreferrer'}>
+          <a href="https://shop.hydroyal.com/" target="_blank" rel={'noreferrer'}>
             <CTAButton>
               <ShoppingCart width={24} height={24} />
               Buy Now
