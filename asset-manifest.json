@@ -1,22 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.3b0522f1.css",
-    "main.js": "/static/js/main.0102379b.js",
+    "main.js": "/static/js/main.f74a5caf.js",
     "static/media/membrane_1.jpg": "/static/media/membrane_1.cb3941e67a2e863ff604.jpg",
     "static/media/membrane_2.jpg": "/static/media/membrane_2.c3649248e869546c61b5.jpg",
     "static/media/bg.png": "/static/media/bg.1757ffcfc2762f1305ab.png",
-    "static/media/burak.jpg": "/static/media/burak.512123de7d177087bea8.jpg",
+    "static/media/usage.png": "/static/media/usage.9db608b4fb23008e7b1b.png",
     "static/media/charts.png": "/static/media/charts.3626248c871b845f86ac.png",
     "static/media/kth.png": "/static/media/kth.0bf91b728b16c74be31c.png",
     "static/media/3.png": "/static/media/3.5267a89b731f1a174199.png",
-    "static/media/markus.jpg": "/static/media/markus.c38f65bb91f0845c9d41.jpg",
-    "static/media/matteo.jpg": "/static/media/matteo.d633dd68899761ce89c7.jpg",
-    "static/media/melike.jpg": "/static/media/melike.6bc259f0bebd176c1e1f.jpg",
     "static/media/2.png": "/static/media/2.407fc007dfdd6e398374.png",
     "static/media/mess_production.jpg": "/static/media/mess_production.4d5973b9a57c110afe3d.jpg",
-    "static/media/lindbergh.jpg": "/static/media/lindbergh.dda164ea2698dc0ef028.jpg",
-    "static/media/schema.jpg": "/static/media/schema.702e3aa6e9414b6c7997.jpg",
-    "static/media/anders.jpg": "/static/media/anders.14e5645d5ba1fbb0b126.jpg",
     "static/media/plug-and-play-logo.png": "/static/media/plug-and-play-logo.d3355fc7875a3b5838a8.png",
     "static/media/smhub.png": "/static/media/smhub.b066c999e7c82cc57ece.png",
     "static/media/RMA.png": "/static/media/RMA.f88282729b78dc418e08.png",
@@ -29,10 +23,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.3b0522f1.css.map": "/static/css/main.3b0522f1.css.map",
-    "main.0102379b.js.map": "/static/js/main.0102379b.js.map"
+    "main.f74a5caf.js.map": "/static/js/main.f74a5caf.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0522f1.css",
-    "static/js/main.0102379b.js"
+    "static/js/main.f74a5caf.js"
   ]
 }
