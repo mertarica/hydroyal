@@ -140,14 +140,14 @@ export default function TopNavbar() {
             <li className="semiBold font15 pointer">
               <PrivacyPolicy />
             </li>
-            {/* <li>
+            <li>
               <a href="https://shop.hydroyal.com/" target="_blank" rel={'noreferrer'}>
                 <CTAButton>
                   <ShoppingCart width={24} height={24} />
                   Buy Now
                 </CTAButton>
               </a>
-            </li> */}
+            </li>
           </UlWrapperRight>
         </NavInner>
       </Wrapper>

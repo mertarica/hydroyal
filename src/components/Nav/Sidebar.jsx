@@ -156,14 +156,14 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Contact
           </Link>
         </li>
-        {/* <li>
+        <li>
           <a href="https://shop.hydroyal.com/" target="_blank" rel={'noreferrer'}>
             <CTAButton>
               <ShoppingCart width={24} height={24} />
               Buy Now
             </CTAButton>
           </a>
-        </li> */}
+        </li>
       </UlStyle>
     </Wrapper>
   );
